@@ -17,7 +17,7 @@ body {
 </pre>
 One can even include inline graphics.
 
-<img src="{{ baseurl }}/assets/images/ferris_surfing.png">
+<img src="_site/assets/images/ferris_surfing.png">
 
 And to think that it all became possible due to **Perl**, that sturdy scripting dromedary!
 
@@ -25,33 +25,35 @@ As you probably know, GitHub natively renders Markdown, which is responsible for
 
 <style>
 body {
-    background: khaki;
+    background: goldenrod;
     color: black;
     text-align: justify;
     text-justify: inter-word;
     font-family: Times;
+    font-weight: 400;
     line-height: 22px;
 }
 
 p {
-    background:  khaki;
+    background: goldenrod;
     color: black;
     text-align: justify;
     text-justify: inter-word;
     font-family: Times;
     font-size: 16px;
+    font-weight: 400;
     line-height: 22px;
 }
 
 h1 {
-    color: white;
+    color: darkblue;
     font-weight: 800;
     font-family: Times;
     font-size: 45px;
 }
 
 h2 {
-    color: white;
+    color: darkblue;
     font-family: Georgia;
     font-style: italic;
     font-size: 20px;
@@ -63,7 +65,7 @@ img {
 }
 
 div {
-    background: khaki;
+    background: goldenrod;
     color: black;
 }
 
