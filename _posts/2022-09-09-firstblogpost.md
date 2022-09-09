@@ -79,4 +79,8 @@ code {
     color: white;
 }
     
+.markdown-body pre {
+    background: black;
+}
+    
 </style>
