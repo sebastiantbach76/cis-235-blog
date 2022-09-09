@@ -75,12 +75,12 @@ code {
 }
  
 .language-html .highlighter-rouge .highlight .pre .code {
-    background: black;
+    background: black !important;
     color: white;
 }
     
 .markdown-body pre {
-    background: black;
+    background: black !important;
 }
     
 </style>
