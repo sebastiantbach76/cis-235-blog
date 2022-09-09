@@ -17,7 +17,7 @@ body {
 </pre>
 One can even include inline graphics.
 
-<img src="../assets/images/ferris_surfing.png">
+<img src="{{ baseurl }}/assets/images/ferris_surfing.png">
 
 And to think that it all became possible due to **Perl**, that sturdy scripting dromedary!
 
