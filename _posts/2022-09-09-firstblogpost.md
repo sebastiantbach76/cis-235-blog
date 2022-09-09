@@ -64,6 +64,16 @@ div {
     color: white;
 }
 
+pre {
+    background: black;
+    color: white;
+}
+    
+code {
+    background: black;
+    color: white;
+}
+    
 .highlight {
     background: black;
     color: white;
