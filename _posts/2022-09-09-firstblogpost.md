@@ -79,9 +79,5 @@ code {
     background: black;
     color: white;
 }
-.highlight {
-    background: black;
-    color: white;
-}
     
 </style>
