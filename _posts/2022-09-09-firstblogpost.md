@@ -46,6 +46,7 @@ h1 {
     color: white;
     font-weight: 800;
     font-family: Times;
+    font-size: 45px;
 }
 
 h2 {
