@@ -17,7 +17,7 @@ body {
 </pre>
 One can even include inline graphics.
 
-![Ferris surfs the Web!](images/ferris_surfing.png)
+<img src="images/ferris_surfing.png">
 
 And to think that it all became possible due to **Perl**, that sturdy scripting dromedary!
 
@@ -25,7 +25,7 @@ As you probably know, GitHub natively renders Markdown, which is responsible for
 
 <style>
 body {
-    background: teal;
+    background: purple;
     color: white;
     text-align: justify;
     text-justify: inter-word;
@@ -34,7 +34,7 @@ body {
 }
 
 p {
-    background: teal;
+    background: purple;
     color: white;
     text-align: justify;
     text-justify: inter-word;
@@ -62,7 +62,7 @@ img {
 }
 
 div {
-    background: teal;
+    background: purple;
     color: white;
 }
 
