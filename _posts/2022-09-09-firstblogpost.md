@@ -73,7 +73,11 @@ code {
     background: black;
     color: white;
 }
-    
+ 
+.highlighter-rouge .highlight {
+    background: black;
+    color: white;
+}
 .highlight {
     background: black;
     color: white;
