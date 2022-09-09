@@ -17,7 +17,7 @@ body {
 </pre>
 One can even include inline graphics.
 
-<img src="../../../../assets/images/ferris_surfing.png">
+![Ferris surfing!](https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ferris_surfing.png)
 
 And to think that it all became possible due to **Perl**, that sturdy scripting dromedary!
 
