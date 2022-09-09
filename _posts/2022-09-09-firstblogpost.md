@@ -74,7 +74,7 @@ code {
     color: white;
 }
  
-.highlighter-rouge .highlight {
+.language-html .highlighter-rouge .highlight {
     background: black;
     color: white;
 }
