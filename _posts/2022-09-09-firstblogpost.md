@@ -25,7 +25,7 @@ As you probably know, GitHub natively renders Markdown, which is responsible for
 
 <style>
 body {
-    background: darkblue;
+    background: teal;
     color: white;
     text-align: justify;
     text-justify: inter-word;
@@ -34,7 +34,7 @@ body {
 }
 
 p {
-    background: darkblue;
+    background: teal;
     color: white;
     text-align: justify;
     text-justify: inter-word;
@@ -58,10 +58,11 @@ h2 {
 
 img {
     width: 500px;
+    display: inline-block;
 }
 
 div {
-    background: darkblue;
+    background: teal;
     color: white;
 }
 
