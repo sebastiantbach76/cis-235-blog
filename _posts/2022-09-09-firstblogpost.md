@@ -64,4 +64,9 @@ div {
     color: white;
 }
 
+.highlight {
+    background: black;
+    color: white;
+}
+    
 </style>
