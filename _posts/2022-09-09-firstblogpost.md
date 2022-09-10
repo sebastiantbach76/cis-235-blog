@@ -95,4 +95,16 @@ code {
     color: black;
 }
 
+.site-header {
+    border-top: 5px solid #424242;
+    border-bottom: 2px solid #f05023;
+    min-height: 55.95px;
+    position: relative;
+}
+
+.site-footer {
+    border-top: 2px solid #f05023;
+    padding: 30px 0px 30px 0px;
+}
+
 </style>
