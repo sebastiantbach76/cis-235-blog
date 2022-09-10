@@ -1,5 +1,5 @@
 ---
-title: Sebastian's CIS 235 Blog Site
+title: Sebastian&rsquo;s CIS 235 Blog Site
 ---
 
 <style>
@@ -10,5 +10,9 @@ body {
 h1, h2, h3, h4, h5 {
     color: black;
     font-family: Georgia;
+}
+
+.footer-col-wrapper {
+    color: black;
 }
 </style>
