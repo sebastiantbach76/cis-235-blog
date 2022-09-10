@@ -17,7 +17,7 @@ body {
 </pre>
 One can even include inline graphics. (***Surf, Ferris, surf!***)
 
-![Ferris surfs the Web!](https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ferris_surfing.png)
+<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ferris_surfing.png" title="Ferris surfs the Web!" style="width:500px;">
 
 And to think that it all became possible due to **Perl**, that sturdy scripting dromedary!
 
@@ -89,6 +89,10 @@ code {
 .highlight {
     background: black;
     color: white;
+}
+
+.post-meta {
+    color: black;
 }
 
 </style>
