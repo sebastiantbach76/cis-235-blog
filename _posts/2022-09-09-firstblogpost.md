@@ -74,7 +74,8 @@ div {
 pre {
     background: black;
     color: white;
-    padding: 5px 0px 5px 10px;
+    padding: 10px 0px 10px 15px;
+    border: 5px solid #f05023;
 }
     
 code {
