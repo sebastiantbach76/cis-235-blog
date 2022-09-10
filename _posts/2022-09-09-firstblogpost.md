@@ -21,7 +21,7 @@ One can even include inline graphics. (***Surf, Ferris, surf!***)
 
 And to think that it all became possible due to **Perl**, that sturdy scripting dromedary!
 
-As you probably know, **GitHub**, which hosts this blog site in one of my repositories, automatically renders **Markdown** as **HTML**, a process responsible for most of the public-facing text you encounter in that site&rsquo;s repositories. Combining the stripped-down markup of **Markdown** with a sprinkling of **CSS** can lead to rapid drafting and publication of blog posts. In total, from blog site setup to blog post publication, this task probably consumed about 15 minutes of my time.
+As you probably know, **GitHub**, which hosts this blog site in one of my repositories, deploys **Jekyll**, a static site generator written in **Ruby**, to render **Markdown** as **HTML**. This architecture is responsible for most of the public-facing text you encounter in that site&rsquo;s repositories, and it makes it possible to host a blog site without setting up a database to flesh out the site content. Combining the stripped-down markup of **Markdown** with a sprinkling of **CSS** and a beaker full of **Jekyll** alchemy can lead to rapid drafting and publication of blog posts. In total, from blog site setup to blog post publication, this task probably consumed about 20 minutes of my time.
 
 That&rsquo;s all for now.  I am off to conduct my search for seven websites to critique...
 
