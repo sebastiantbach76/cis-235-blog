@@ -9,8 +9,8 @@ I have a confession to make: This isn&rsquo;t your grandparents&rsquo; **HTML** 
 <pre>
 &lt;style>
 body {
-    background: darkblue;
-    color: white;
+    background: peachpuff;
+    color: black;
 }
 ...
 &lt;/style>
