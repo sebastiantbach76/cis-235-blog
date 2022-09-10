@@ -1,5 +1,5 @@
 ---
-title: Sebastian&rsquo;s CIS 235 Blog Site
+title: Sebastian’s CIS 235 Blog Site
 ---
 
 <style>
