@@ -17,7 +17,10 @@ body {
 </pre>
 One can even include inline graphics. (***Surf, Ferris, surf!***)
 
+<figure>
 <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ferris_surfing.png" title="Ferris surfs the Web!" style="width:500px;">
+<figcaption style="text-align: center;">Ferris surfs the World Wide Web! Art Credit: Esther Arzola (2019). Reuse <a href="https://www.behance.net/gallery/89117181/Ferris-the-professional">explicitly permitted by artist</a>.</figcaption>
+</figure>
 
 And to think that it all became possible due to **Perl**, that sturdy scripting dromedary!
 
