@@ -122,14 +122,14 @@ code {
 }
 
 .siteheader {
-    border-radius: 25px;
+    border-radius: 0 0 25px 25px;
 }
 
 .sitetitle {
     background: #ffffff;
     padding: 5px 10px 5px 10px;
-    border-radius: 25px;
-    margin: 0 0 10px 0;
+    border-radius: 25px 25px 0 0;
+    margin: 0 0 0px 0;
     font-weight: 800;
 }
 
