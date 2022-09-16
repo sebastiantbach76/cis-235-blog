@@ -123,14 +123,23 @@ code {
 
 .siteheader {
     border-radius: 0 0 25px 25px;
+    border-left: solid 2px;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+    min-width: 50%;
+    max-width: 99.5%;
 }
 
 .sitetitle {
     background: #ffffff;
-    padding: 5px 10px 5px 10px;
+    padding: 10px 10px 5px 10px;
     border-radius: 25px 25px 0 0;
-    margin: 0 0 0px 0;
     font-weight: 800;
+    border-left: solid 2px;
+    border-right: solid 2px;
+    border-top: solid 2px;
+    min-width: 50%;
+    max-width: 100%;
 }
 
 .sitetitle .url {
