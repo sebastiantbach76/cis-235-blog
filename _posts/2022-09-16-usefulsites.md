@@ -59,7 +59,6 @@ p {
 
 a {
     color: darkblue;
-    background: #ffffff;
 }
 
 h1 {
