@@ -8,7 +8,7 @@ date: 2022-16-09
 
 <div class="url">
 
-URL: <a href="https://www.caniuse.com/" target="-blank">https://www.caniuse.com/</a>
+URL: [https://www.caniuse.com/](https://www.caniuse.com/)
 </div>
 
 </div>
@@ -23,7 +23,7 @@ This powerful reference website is maintained by Alexis &#8220;Fyrd&#8221; Dever
 
 <div class="url">
 
-URL: <a href="https://developer.mozilla.org/en-US/" target="_blank">https://developer.mozilla.org/en-US/</a>
+URL: [https://developer.mozilla.org/en-US/](https://developer.mozilla.org/en-US/)
 
 </div>
 
