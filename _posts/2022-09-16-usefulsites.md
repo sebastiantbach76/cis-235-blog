@@ -1,5 +1,5 @@
 ---
-title: "Two Useful Sites Web Developers Should Know"
+title: "2 Useful Sites Web Developers Should Know"
 date: 2022-16-09
 ---
 <div class="sitetitle">
@@ -8,7 +8,7 @@ date: 2022-16-09
 
 <div class="url">
 
-URL: https://www.caniuse.com/
+URL: <a href="https://www.caniuse.com/" target="-blank">https://www.caniuse.com/</a>
 </div>
 
 </div>
@@ -23,7 +23,7 @@ This powerful reference website is maintained by Alexis &#8220;Fyrd&#8221; Dever
 
 <div class="url">
 
-URL: https://developer.mozilla.org/en-US/
+URL: <a href="https://developer.mozilla.org/en-US/" target="_blank">https://developer.mozilla.org/en-US/</a>
 
 </div>
 
