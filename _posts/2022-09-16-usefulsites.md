@@ -6,10 +6,7 @@ date: 2022-16-09
 
 <h2>Can I Use... &#128279;</h2>
 
-<div class="url">
-
 URL: [https://www.caniuse.com/](https://www.caniuse.com/)
-</div>
 
 </div>
 
@@ -21,11 +18,7 @@ This powerful reference website is maintained by Alexis &#8220;Fyrd&#8221; Dever
 
 <h2>MDN (Mozilla Developer Network) Web Docs &#128279;</h2>
 
-<div class="url">
-
 URL: [https://developer.mozilla.org/en-US/](https://developer.mozilla.org/en-US/)
-
-</div>
 
 </div>
 
