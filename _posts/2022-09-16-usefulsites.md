@@ -1,12 +1,12 @@
 ---
-title: "2 Useful Sites Web Developers Should Know"
+title: "Two Useful Sites for Web Developers"
 date: 2022-09-16
 ---
 <div class="sitetitle">
 
 <h2>Can I Use... &#128279;</h2>
 
-URL: [https://www.caniuse.com/](https://www.caniuse.com/)
+URL: <a href="https://www.caniuse.com" target="_blank">https://www.caniuse.com/</a>
 
 </div>
 
@@ -18,7 +18,7 @@ This powerful reference website is maintained by Alexis &#8220;Fyrd&#8221; Dever
 
 <h2>MDN (Mozilla Developer Network) Web Docs &#128279;</h2>
 
-URL: [https://developer.mozilla.org/en-US/](https://developer.mozilla.org/en-US/)
+URL: <a href="https://developer.mozilla.org/en-US/" target="_blank">https://developer.mozilla.org/en-US/</a>
 
 </div>
 
