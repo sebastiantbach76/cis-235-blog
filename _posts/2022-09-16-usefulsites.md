@@ -1,5 +1,5 @@
 ---
-title: "Two Useful Sites for Web Developers"
+title: "Two Useful Sites for Web Developers: Part 1"
 date: 2022-09-16
 ---
 <div class="sitetitle">
@@ -36,11 +36,14 @@ Personally, I find CanIUse.com invaluable for its ability to deliver data visual
 <figcaption>WebSpeed Insights&rsquo; Analysis of CanIUse.com on Mobile Browsers</figcaption>
 </figure>
 
-<p>I am genuinely impressed by the extensive list of website metrics that WebSpeed Insights examines, and I plan to use its analyses as a means of evaluating all of the web pages that I review on this blog site. I also plan to provide test results from <a href="https://www.lambdatest.com" >lambdatest.com</a>, which simulates precisely how websites render on different mobile devices (see below).</p>
+<p>I am genuinely impressed by the extensive list of website metrics that WebSpeed Insights examines, and I plan to use its analyses as a means of evaluating all of the web pages that I review on this blog site. I also plan to provide sample test results from <a href="https://www.lambdatest.com" >lambdatest.com</a>, which simulates precisely how websites render on different mobile devices (see below).</p>
+
+<h2>lambdatest.com Results (a sample)</h2>
 
 <!-- Images used to open the lightbox -->
 
 <div class="row">
+<h3>Google Chrome</h3>
 <figure>
   <div class="column">
     <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-galaxy-note-9-360x740.png" onclick="openModal();currentSlide(1)" class="hover-shadow" width=90px title="CanIUse.com on the Samsung Galaxy Note 9">
@@ -72,7 +75,41 @@ Personally, I find CanIUse.com invaluable for its ability to deliver data visual
     <figcaption>Apple iPad 6th Generation</figcaption>
   </div>
 </figure>
+</div>
 
+<div class="row">
+<div><h3>Mozilla Firefox</h3></div>
+<figure>
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-galaxy-note-9-360x740.png" onclick="openModal();currentSlide(6)" class="hover-shadow" width=90px title="CanIUse.com on the Samsung Galaxy Note 9">
+    <figcaption>Samsung Galaxy Note 9</figcaption>
+  </div>
+</figure>
+<figure>
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-google-pixel-3-412x695.png" onclick="openModal();currentSlide(7)" class="hover-shadow">
+    <figcaption>Google Pixel 3</figcaption>
+  </div>
+</figure>
+<figure>  
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-iphone-8-plus-414x736.png" onclick="openModal();currentSlide(8)" class="hover-shadow">
+    <figcaption>Apple iPhone 8 Plus</figcaption>
+  </div>
+</figure>
+<figure>
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-galaxy-tab-s4-10-5-610x808.png" onclick="openModal();currentSlide(9)" class="hover-shadow">
+    <figcaption>Samsung Galaxy Tab S4</figcaption>
+  </div>
+</figure> 
+
+<figure>
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-ipad-(6th-generation)-768x1024.png" onclick="openModal();currentSlide(10)" class="hover-shadow">
+    <figcaption>Apple iPad 6th Generation</figcaption>
+  </div>
+</figure>
 </div>
 
 <div>
@@ -82,30 +119,54 @@ Personally, I find CanIUse.com invaluable for its ability to deliver data visual
   <div class="modal-content">
 
 <div class="mySlides">
-  <div class="numbertext">1 / 5</div>
+  <div class="numbertext">1 / 10</div>
   <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-galaxy-note-9-360x740.png" style="width:100%">
 </div>
 
 <div class="mySlides">
-  <div class="numbertext">2 / 5</div>
+  <div class="numbertext">2 / 10</div>
   <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-google-pixel-3-412x695.png" style="width:100%">
 </div>
 
 <div class="mySlides">
-  <div class="numbertext">3 / 5</div>
+  <div class="numbertext">3 / 10</div>
   <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-iphone-8-plus-414x736.png" style="width:100%">
 </div>
 
 <div class="mySlides">
-  <div class="numbertext">4 / 5</div>
+  <div class="numbertext">4 / 10</div>
   <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-galaxy-tab-s4-10-5-610x808.png" style="width:100%">
 </div>
 
 <div class="mySlides">
-  <div class="numbertext">5 / 5</div>
+  <div class="numbertext">5 / 10</div>
   <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-ipad-(6th-generation)-768x1024.png" style="width:100%">
 </div>
 
+<div class="mySlides">
+  <div class="numbertext">6 / 10</div>
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-galaxy-note-9-360x740.png" style="width:100%">
+</div>
+
+<div class="mySlides">
+  <div class="numbertext">7 / 10</div>
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-google-pixel-3-412x695.png" style="width:100%">
+</div>
+
+<div class="mySlides">
+  <div class="numbertext">8 / 10</div>
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-iphone-8-plus-414x736.png" style="width:100%">
+</div>
+
+<div class="mySlides">
+  <div class="numbertext">9 / 10</div>
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-galaxy-tab-s4-10-5-610x808.png" style="width:100%">
+</div>
+
+<div class="mySlides">
+  <div class="numbertext">10 / 10</div>
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-ipad-(6th-generation)-768x1024.png" style="width:100%">
+</div>
 <!-- Next/previous controls -->
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -136,31 +197,39 @@ Personally, I find CanIUse.com invaluable for its ability to deliver data visual
   <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-ipad-(6th-generation)-768x1024.png" onclick="currentSlide(5)" alt="Apple iPad 6th Generation">
 </div>
 
+<div class="column">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-galaxy-note-9-360x740.png" onclick="currentSlide(6)" alt="Samsung Galaxy Note 9">
+</div>
+
+<div class="column">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-google-pixel-3-412x695.png" onclick="currentSlide(7)" alt="Google Pixel 3">
+</div>
+
+<div class="column">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-iphone-8-plus-414x736.png" onclick="currentSlide(8)" alt="Apple iPhone 8 Plus">
+</div>
+
+<div class="column">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-galaxy-tab-s4-10-5-610x808.png" onclick="currentSlide(9)" alt="Samsung Galaxy Tab S4">
+</div>
+
+<div class="column">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-ipad-(6th-generation)-768x1024.png" onclick="currentSlide(10)" alt="Apple iPad 6th Generation">
+</div>
+
 </div>
 
 </div>
 
 <div>
+
+<br/>
+
 <h2>The Bottom Line:</h2>
 
 <p>In my humble opinion, CanIUse.com should occupy a special place in any web developer&rsquo;s bookmark collection. </p>
 </div>
-
-<p class="section-split">&#4960;</p>
-
-<div class="sitetitle">
-
-<h2>MDN (Mozilla Developer Network) Web Docs &#128279;</h2>
-
-URL: <a href="https://developer.mozilla.org/en-US/" target="_blank">https://developer.mozilla.org/en-US/</a>
-
 </div>
-
-<div>
-<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdnwebdocs_header.png" title="MDN Web Docs" style="width:100%;" class="siteheader" alt="A graphic depicting the header of the developer.mozilla.org website.">
-</div></div>
-
-
 
 
 <style>
