@@ -474,9 +474,9 @@ code {
 /* Caption text */
 .caption-container {
   text-align: center;
-  background-color: black;
+  background-color: white;
   padding: 2px 16px;
-  color: white;
+  color: black;
 }
 
 img.demo {
