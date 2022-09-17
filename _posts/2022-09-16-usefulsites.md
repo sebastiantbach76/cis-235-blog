@@ -68,7 +68,7 @@ Personally, I find CanIUse.com invaluable for its ability to deliver data visual
 
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-ipad-(6th-generation)-768x1024.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-ipad-(6th-generation)-768x1024.png" onclick="openModal();currentSlide(5)" class="hover-shadow">
     <figcaption>Apple iPad 6th Generation</figcaption>
   </div>
 </figure>
@@ -117,23 +117,23 @@ Personally, I find CanIUse.com invaluable for its ability to deliver data visual
 
 <!-- Thumbnail image controls -->
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-galaxy-note-9-360x740.png" onclick="currentSlide(1)" alt="Nature">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-galaxy-note-9-360x740.png" onclick="currentSlide(1)" alt="Samsung Galaxy Note 9">
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-google-pixel-3-412x695.png" onclick="currentSlide(2)" alt="Snow">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-google-pixel-3-412x695.png" onclick="currentSlide(2)" alt="Google Pixel 3">
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-iphone-8-plus-414x736.png" onclick="currentSlide(3)" alt="Mountains">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-iphone-8-plus-414x736.png" onclick="currentSlide(3)" alt="Apple iPhone 8 Plus">
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-galaxy-tab-s4-10-5-610x808.png" onclick="currentSlide(4)" alt="Lights">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-galaxy-tab-s4-10-5-610x808.png" onclick="currentSlide(4)" alt="Samsung Galaxy Tab S4">
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-ipad-(6th-generation)-768x1024.png" onclick="currentSlide(5)" alt="Lights">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-ipad-(6th-generation)-768x1024.png" onclick="currentSlide(5)" alt="Apple iPad 6th Generation">
 </div>
 
 </div>
