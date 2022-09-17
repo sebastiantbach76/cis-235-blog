@@ -14,25 +14,27 @@ URL: <a href="https://developer.mozilla.org/en-US/" target="_blank">https://deve
 <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdnwebdocs_header.png" title="MDN Web Docs" style="width:100%;" class="siteheader" alt="A graphic depicting the header of the developer.mozilla.org website.">
 </div>
 
-<p><span class="dropcap">M</span>DN Web Docs
+<p><span class="dropcap">M</span><strong>DN</strong> (<em>formerly</em> <strong>Mozilla Developer Network</strong>) <strong>Web Docs</strong> is <strong><em>the</em></strong> authoriative source for all things World Wide Web.
 </p>
 
 <figure>
 <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-wsi-desktop.png" title="WebSpeed Insights' Analysis of CanIUse.com (Desktop)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of CanIUse.com on Desktop Browsers">
-<figcaption>WebSpeed Insights&rsquo; Analysis of CanIUse.com on Desktop Browsers</figcaption>
+<figcaption>WebSpeed Insights&rsquo; Analysis of developer.mozilla.com on Desktop Browsers</figcaption>
 </figure>
 <figure>
 <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-wsi-mobile.png" title="WebSpeed Insights' Analysis of CanIUse.com (Mobile)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of CanIUse.com on Mobile Browsers">
-<figcaption>WebSpeed Insights&rsquo; Analysis of CanIUse.com on Mobile Browsers</figcaption>
+<figcaption>WebSpeed Insights&rsquo; Analysis of developer.mozilla.com on Mobile Browsers</figcaption>
 </figure>
 
-<p>I am genuinely impressed by the extensive list of website metrics that WebSpeed Insights examines, and I plan to use its analyses as a means of evaluating all of the web pages that I review on this blog site. I also plan to provide test results from <a href="https://www.lambdatest.com" >lambdatest.com</a>, which simulates precisely how websites render on different mobile devices (see below).</p>
+<p>Poop.</p>
 
-<h3>Google Chrome</h3>
+<h2>lambdatest.com Results (a sample)</h2>
 
 <!-- Images used to open the lightbox -->
 
 <div class="row">
+<h3>Google Chrome</h3>
+
 <figure>
   <div class="column">
     <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-note-9-360x740.png" onclick="openModal();currentSlide(1)" class="hover-shadow" width=90px title="CanIUse.com on the Samsung Galaxy Note 9">
@@ -66,6 +68,8 @@ URL: <a href="https://developer.mozilla.org/en-US/" target="_blank">https://deve
 </figure>
 
 </div>
+
+<br />
 
 <div class="row">
 <div><h3>Mozilla Firefox</h3></div>
