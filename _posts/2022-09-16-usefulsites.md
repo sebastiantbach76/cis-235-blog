@@ -317,7 +317,7 @@ code {
 /* Create four equal columns that floats next to eachother */
 .column {
   float: left;
-  width: 20%;
+  width: 15%;
   padding: 0 15px 0px 15px;
 }
 
