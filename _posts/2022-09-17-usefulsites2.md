@@ -14,15 +14,22 @@ URL: <a href="https://developer.mozilla.org/en-US/" target="_blank">https://deve
 <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdnwebdocs_header.png" title="MDN Web Docs" style="width:100%;" class="siteheader" alt="A graphic depicting the header of the developer.mozilla.org website.">
 </div>
 
-<p><span class="dropcap">M</span><strong>DN</strong> (<em>formerly</em> <strong>Mozilla Developer Network</strong>) <strong>Web Docs</strong> is <strong><em>the</em></strong> authoriative source for all things World Wide Web.
+<p><span class="dropcap">M</span><strong>DN</strong> (<em>formerly</em> <strong>Mozilla Developer Network</strong>) <strong>Web Docs</strong> is <strong><em>the</em></strong> authoriative source for all things World Wide Web. This comprehensive website, launched in 2005, maintains detailed, technical reference documents and tutorials on a wide variety of topics, including HTML5, CSS3, Django (a Python web development framework), JavaScript, MathML, Node.js (a popular JavaScript runtime environment), as well as Web APIs, Extensions, and Technologies. MDN Web Docs&rsquo; knowledge repositories represent the collaborative contributions of web development and telecommunications experts from industry giants Mozilla, Google, Microsoft, and Samsung.<sup><a href="https://www.zdnet.com/article/developers-rejoice-microsoft-google-mozilla-are-putting-all-their-web-api-docs-in-one-place/" target="_blank">1</a></sup> In addition to providing articles on web technology topics, the site also features a soup to nuts, self-paced course on web development in its &ldquo;MDN Learning Area&rdquo; (under &ldquo;Guides&rdquo;). In short, MDN Web Docs delivers on its mission statement: &ldquo;to <u>provide a blueprint for a better internet</u> and empower a new generation of developers and content creators to build it.&rdquo;<sup><a href="https://developer.mozilla.org/en-US/about" target="_blank">2</a></sup>
 </p>
 
+<h3>Test Conditions:</h3>
+<div class="conditions">
+<strong>Device:</strong> Samsung Galaxy A13 5G<br/>
+<strong>OS:</strong> Android 12<br/>
+<strong>Cellular Network:</strong> Boost Mobile 5G
+</div>
+
 <figure>
-<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-wsi-desktop.png" title="WebSpeed Insights' Analysis of CanIUse.com (Desktop)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of CanIUse.com on Desktop Browsers">
+<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-wsi-desktop.png" title="WebSpeed Insights' Analysis of CanIUse.com (Desktop)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of CanIUse.com on Desktop Browsers: Accessibilty 100, Best Practices 92, Performance 93">
 <figcaption>WebSpeed Insights&rsquo; Analysis of developer.mozilla.com on Desktop Browsers</figcaption>
 </figure>
 <figure>
-<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-wsi-mobile.png" title="WebSpeed Insights' Analysis of CanIUse.com (Mobile)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of CanIUse.com on Mobile Browsers">
+<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-wsi-mobile.png" title="WebSpeed Insights' Analysis of CanIUse.com (Mobile)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of CanIUse.com on Mobile Browsers: Accessibility 100, Best Practices 92, Performance 52">
 <figcaption>WebSpeed Insights&rsquo; Analysis of developer.mozilla.com on Mobile Browsers</figcaption>
 </figure>
 
@@ -502,6 +509,10 @@ img.hover-shadow {
 
 figcaption {
     line-height: 1.25em;
+}
+
+.conditions {
+    padding-left: 15px;
 }
 
 </style>

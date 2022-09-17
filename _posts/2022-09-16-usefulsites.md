@@ -26,7 +26,12 @@ Personally, I find CanIUse.com invaluable for its ability to deliver data visual
 
 <p><strong><em>Performance:</em></strong> This metric takes into consideration the speed with which analyzed pages download and render and assigns those pages a score on a scale of 1-100.  The multitude of rubrics for this measure includes &#8220;Time to interactive,&#8221; &#8220;Total Blocking Time,&#8221; &#8220;Properly sizes images,&#8221; &#8220;Minifies CSS,&#8221; &#8220;Uses passive listeners to improve scrolling performance,&#8221; and &#8220;Reduces unused JavaScript.&#8221;
 </p>
-
+<h3>Test Conditions:</h3>
+<div class="conditions">
+<strong>Device:</strong> Samsung Galaxy A13 5G<br/>
+<strong>OS:</strong> Android 12<br/>
+<strong>Cellular Network:</strong> Boost Mobile 5G
+</div>
 <figure>
 <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-wsi-desktop.png" title="WebSpeed Insights' Analysis of CanIUse.com (Desktop)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of CanIUse.com on Desktop Browsers">
 <figcaption>WebSpeed Insights&rsquo; Analysis of CanIUse.com on Desktop Browsers</figcaption>
@@ -504,6 +509,10 @@ img.hover-shadow {
 
 figcaption {
     line-height: 1.25em;
+}
+
+.conditions {
+    padding-left: 15px;
 }
 
 </style>
