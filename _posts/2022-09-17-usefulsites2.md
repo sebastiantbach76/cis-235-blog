@@ -89,14 +89,14 @@ URL: <a href="https://developer.mozilla.org/en-US/" target="_blank">https://deve
 </figure>
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-tab-s4-10-5-610x808.png" onclick="openModal();currentSlide(9)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-tab-s4-10-5-firefox-610x808.png" onclick="openModal();currentSlide(9)" class="hover-shadow">
     <figcaption>Samsung Galaxy Tab S4</figcaption>
   </div>
 </figure> 
 
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-ipad-(6th-generation)-768x1024.png" onclick="openModal();currentSlide(10)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-ipad-(6th-generation)-firefox-768x1024.png" onclick="openModal();currentSlide(10)" class="hover-shadow">
     <figcaption>Apple iPad 6th Generation</figcaption>
   </div>
 </figure>
@@ -135,27 +135,27 @@ URL: <a href="https://developer.mozilla.org/en-US/" target="_blank">https://deve
 
 <div class="mySlides">
   <div class="numbertext">6 / 10</div>
-  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-note-9-360x740.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-note-9-firefox-360x740.png" style="width:100%">
 </div>
 
 <div class="mySlides">
   <div class="numbertext">7 / 10</div>
-  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-google-pixel-3-412x695.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-google-pixel-3-firefox-412x695.png" style="width:100%">
 </div>
 
 <div class="mySlides">
   <div class="numbertext">8 / 10</div>
-  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-iphone-8-plus-414x736.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-iphone-8-plus-firefox-414x736.png" style="width:100%">
 </div>
 
 <div class="mySlides">
   <div class="numbertext">9 / 10</div>
-  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-tab-s4-10-5-610x808.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-tab-s4-10-5-firefox-610x808.png" style="width:100%">
 </div>
 
 <div class="mySlides">
   <div class="numbertext">10 / 10</div>
-  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-ipad-(6th-generation)-768x1024.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-ipad-(6th-generation)-firefox-768x1024.png" style="width:100%">
 </div>
 
 <!-- Next/previous controls -->
@@ -191,23 +191,23 @@ URL: <a href="https://developer.mozilla.org/en-US/" target="_blank">https://deve
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-note-9-360x740.png" onclick="currentSlide(6)" alt="Samsung Galaxy Note 9">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-note-9-firefox-360x740.png" onclick="currentSlide(6)" alt="Samsung Galaxy Note 9">
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-google-pixel-3-412x695.png" onclick="currentSlide(7)" alt="Google Pixel 3">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-google-pixel-3-firefox-412x695.png" onclick="currentSlide(7)" alt="Google Pixel 3">
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-iphone-8-plus-414x736.png" onclick="currentSlide(8)" alt="Apple iPhone 8 Plus">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-iphone-8-plus-firefox-414x736.png" onclick="currentSlide(8)" alt="Apple iPhone 8 Plus">
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-tab-s4-10-5-610x808.png" onclick="currentSlide(9)" alt="Samsung Galaxy Tab S4">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-tab-s4-10-5-firefox-610x808.png" onclick="currentSlide(9)" alt="Samsung Galaxy Tab S4">
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-ipad-(6th-generation)-768x1024.png" onclick="currentSlide(10)" alt="Apple iPad 6th Generation">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-ipad-(6th-generation)-firefox-768x1024.png" onclick="currentSlide(10)" alt="Apple iPad 6th Generation">
 </div>
 
 </div>
