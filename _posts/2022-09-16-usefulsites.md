@@ -52,6 +52,7 @@ Personally, I find CanIUse.com invaluable for its ability to deliver data visual
     <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-google-pixel-3-412x695.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
     <figcaption>Google Pixel 3</figcaption>
   </div>
+</figure>
 <figure>  
   <div class="column">
     <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-iphone-8-plus-414x736.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
@@ -63,14 +64,17 @@ Personally, I find CanIUse.com invaluable for its ability to deliver data visual
     <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-galaxy-tab-s4-10-5-610x808.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
     <figcaption>Samsung Galaxy Tab S4</figcaption>
   </div>
-</figure>
+</figure> 
+
 <figure>
   <div class="column">
     <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-ipad-(6th-generation)-768x1024.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
     <figcaption>Apple iPad 6th Generation</figcaption>
   </div>
-</figure> 
+</figure>
+
 </div>
+
 <div>
 <!-- The Modal/Lightbox -->
 <div id="myModal" class="modal">
@@ -152,8 +156,9 @@ URL: <a href="https://developer.mozilla.org/en-US/" target="_blank">https://deve
 
 </div>
 
+<div>
 <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdnwebdocs_header.png" title="MDN Web Docs" style="width:100%;" class="siteheader" alt="A graphic depicting the header of the developer.mozilla.org website.">
-
+</div></div>
 
 
 
@@ -312,8 +317,8 @@ code {
 /* Create four equal columns that floats next to eachother */
 .column {
   float: left;
-  width: 13%;
-  padding: 0 20px 0px 20px;
+  width: 20%;
+  padding: 0 15px 0px 15px;
 }
 
 /* The Modal (background) */
