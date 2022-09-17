@@ -12,7 +12,10 @@ URL: <a href="https://www.caniuse.com" target="_blank">https://www.caniuse.com/<
 
 <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/caniuse_header.png" title="Can I use..." style="width:100%;" class="siteheader" alt="A graphic depicting the header of the caniuse.com website.">
 
-This powerful reference website is maintained by Alexis &#8220;Fyrd&#8221; Deveria, who has devoted a considerable amount of time constructing a search engine that indexes HTML tags, CSS syntax, and JavaScript code within the context of their compatibility across various desktop and mobile browsers. 
+<p><span class="dropcap">A</span>lexis &#8220;Fyrd&#8221; Deveria maintains this powerful reference website, which features a search engine that indexes HTML tags, CSS syntax, and JavaScript code within the context of their compatibility across various desktop and mobile browsers. For instance, if one wanted to determine which browsers currently support the <strong>&lt;iframe></strong> tag (which sparked some controversy early in its career), CanIUse.com will <a href="https://caniuse.com/mdn-html_elements_iframe">generate a table</a> displaying various browsers (grouped by their past and present versions) and their level of support for that DOM element.  Visitors to the site can organize the search results by current version, global usage, and version release date. Each report offers detailed notes about the query results and a link to <a href="www.browserstack.com" target="_blank">www.browserstack.com</a>, where users may simulate the experience of browsing the queried item on a number of different browsers.  To continue with the example query above, one may learn from the search result&rsquo;s supplementary information that &#8220;Safari has a bug that prevents iframes from loading if the iframe element was hidden when added to the page&#8221; and that including &#8220;iframeElement.src = iframeElement.src should cause it to load the iframe.&#8221;<sup><a href="https://caniuse.com/mdn-html_elements_iframe">1</a></sup></p>
+<p>
+Personally, I find CanIUse.com invaluable for its ability to deliver data visualizations and historical views of support for the myriad tags, properties, and commonplace code snippets that make up the basic building blocks of the modern World Wide Web. I cannot imagine rolling out a new site without first consulting CanIUse.com to determine the pros and cons of including, e.g., code from the latest ECMAScript standard that may or may not enjoy broad support on both desktop and mobile browsers.
+</p>
 
 <div class="sitetitle">
 
@@ -139,6 +142,15 @@ code {
     padding-left: 15px;
     background: #ffffff;
     font-weight: 800;
+}
+
+.dropcap {
+    font-size: 64px;
+    line-height: 1;
+    float: left;
+    font-weight: 800;
+    margin-right: 3px;
+    margin-top: -4px;
 }
 
 </style>
