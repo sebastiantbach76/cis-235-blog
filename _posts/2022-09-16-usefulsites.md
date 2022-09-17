@@ -127,12 +127,16 @@ Personally, I find CanIUse.com invaluable for its ability to deliver data visual
 <div class="column">
   <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
 </div>
-</div>
+
 </div>
 
+</div>
+
+<div>
 <h2>The Bottom Line:</h2>
 
 <p>In my humble opinion, CanIUse.com should occupy a special place in any web developer&rsquo;s bookmark collection. </p>
+</div>
 
 <p class="section-split">&#4960;</p>
 
