@@ -71,7 +71,7 @@ Personally, I find CanIUse.com invaluable for its ability to deliver data visual
   </div>
 </figure> 
 </div>
-
+<div>
 <!-- The Modal/Lightbox -->
 <div id="myModal" class="modal">
   <span class="close cursor" onclick="closeModal()">&times;</span>
