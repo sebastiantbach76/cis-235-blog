@@ -14,20 +14,35 @@ URL: <a href="https://www.caniuse.com" target="_blank">https://www.caniuse.com/<
 
 <p><span class="dropcap">A</span>lexis &#8220;Fyrd&#8221; Deveria maintains this powerful reference website, which features a search engine that indexes HTML tags, CSS syntax, and JavaScript code within the context of their compatibility across various desktop and mobile browsers. For instance, if one wanted to determine which browsers currently support the <strong>&lt;iframe></strong> tag (which sparked some controversy early in its career), CanIUse.com will <a href="https://caniuse.com/mdn-html_elements_iframe">generate a table</a> displaying various browsers (grouped by their past and present versions) and their level of support for that DOM element.  Visitors to the site can organize the search results by current version, global usage, and version release date. Each report offers detailed notes about the query results and a link to <a href="www.browserstack.com" target="_blank">www.browserstack.com</a>, where users may simulate the experience of examining the queried item on a number of different browsers.  To continue with the example query above, one may learn from the search result&rsquo;s supplementary information that &#8220;Safari has a bug that prevents iframes from loading if the iframe element was hidden when added to the page&#8221; and that including &#8220;iframeElement.src = iframeElement.src should cause it to load the iframe.&#8221;<sup><a href="https://caniuse.com/mdn-html_elements_iframe">1</a></sup></p>
 <p>
-Personally, I find CanIUse.com invaluable for its ability to deliver data visualizations and historical views of support for the myriad tags, properties, and commonplace code snippets that make up the basic building blocks of the modern World Wide Web. I cannot imagine rolling out a new site without first consulting CanIUse.com to determine the pros and cons of including, e.g., code from the latest ECMAScript standard that may or may not enjoy broad support on both desktop and mobile browsers. The site&rsquo;s excellent search engine allows me to conduct targeted searches for this information and customize the formatting of the query results to my liking. Moreover, I can rely CanIUse.com to deliver the most current and authoritative compatibility information because the site draws down much of its data from <strong>MDN Web Docs</strong> (see below), the vast repository of web development knowledge trusted by countless developers worldwide.
+Personally, I find CanIUse.com invaluable for its ability to deliver data visualizations and historical views of support for the myriad tags, attributes, and commonplace code snippets that make up the basic building blocks of the modern World Wide Web. I cannot imagine rolling out a new site without first consulting CanIUse.com to determine the pros and cons of including, e.g., code from the latest ECMAScript standard that may or may not enjoy broad support on both desktop and mobile browsers. The site&rsquo;s excellent search engine allows me to conduct targeted, lightning-fast searches for this information and customize the formatting of the query results to my liking. Moreover, I can rely CanIUse.com to deliver the most current and authoritative compatibility information because the site draws down much of its data from <strong>MDN Web Docs</strong> (see below), the vast repository of web development knowledge trusted by countless developers worldwide. The site also strongly encourages user feedback and publishes a list of user-submitted feature requests (both filled and under consideration), thereby striving to improve an already terrific resource continuously. 
 </p>
 
-<p>Not only does CanIUse.com strike me as particularly user friendly, but it also presents itself as extremely browser friendly. A mobile application for Android devices, <a href="https://play.google.com/store/apps/details?id=com.prodevutils.WebSpeed_Insights" target="_blank">WebSpeed Insights</a>, gives CanIUse.com high marks in the categories of &#8220;Accessibility,&#8221; &#8220;Best Practices,&#8221; and &#8220;Performance&#8221; on both desktop and mobile browsers. WebSpeed Insight&rsquo;s documentation defines  &#8220;Accessibility&#8221; as &#8220;the inclusive practice of ensuring there are no barriers that prevent interaction with, or access to, websites on the World Wide Web by people with physical disabilities, situational disabilities, and socioeconomic restrictions on bandwidth and speed.&#8221; The app assigns sites an &#8220;Accessibility&#8221; grade on a scale of 1-100 based on rubrics such as &#8220;`[aria-*]` attributes match their roles,&#8221; &#8220;Background and foreground colors have a sufficient contrast ratio,&#8221; and &#8221;Image elements have `[alt]` attributes.&#8221;</p>
+<p>Not only does CanIUse.com strike me as particularly user friendly, but it also presents itself as extremely browser friendly. A free mobile application for Android devices, <a href="https://play.google.com/store/apps/details?id=com.prodevutils.WebSpeed_Insights" target="_blank">WebSpeed Insights</a>, gives CanIUse.com high marks in the metrics of &#8220;Accessibility,&#8221; &#8220;Best Practices,&#8221; and &#8220;Performance&#8221; on both desktop and mobile browsers.</p>
+
+<p><strong><em>Accessibility:</em></strong> WebSpeed Insights defines this category as &#8220;the inclusive practice of ensuring there are no barriers that prevent interaction with, or access to, websites on the World Wide Web by people with physical disabilities, situational disabilities, and socioeconomic restrictions on bandwidth and speed.&#8221; The app assigns sites an &#8220;Accessibility&#8221; score on a scale of 1-100 based on a great number of rubrics, including &#8220;&grave;[aria-*]&grave; attributes match their roles,&#8221; &#8220;Background and foreground colors have a sufficient contrast ratio,&#8221; and &#8221;Image elements have &grave;[alt]&grave; attributes.&#8221;</p>
+
+<p><strong><em>Best Practices:</em></strong> WebSpeed Insights examines web pages to determine if they adhere to sixteen different industry standards for HTML formatting, user privacy, and website security. Some of these standards include &#8220;Uses HTTPS,&#8221; &#8220;Avoids front-end JavaScript libraries with known security vulnerabilities,&#8221; &#8220;Serves images with proper resolution,&#8221; and &#8220;Avoids requesting the notification permission on page load.&#8221; Once again, the application assigns the website in question a score from 1-100 in this category.
+</p>
+
+<p><strong><em>Performance:</em></strong> This metric takes into consideration the speed with which analyzed pages download and render and assigns those pages a score on a scale of 1-100.  The multitude of rubrics for this measure includes &#8220;Time to interactive,&#8221; &#8220;Total Blocking Time,&#8221; &#8220;Properly sizes images,&#8221; &#8220;Minifies CSS,&#8221; &#8220;Uses passive listeners to improve scrolling performance,&#8221; and &#8220;Reduces unused JavaScript.&#8221;
+</p>
 
 <figure>
 <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-wsi-desktop.png" title="WebSpeed Insights' Analysis of CanIUse.com (Desktop)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of CanIUse.com on Desktop Browsers">
-<figcaption>WebSpeed Insight&rsquo;s Analysis of CanIUse.com on Desktop Browsers</figcaption>
+<figcaption>WebSpeed Insights&rsquo; Analysis of CanIUse.com on Desktop Browsers</figcaption>
 </figure>
 <figure>
 <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/ciu-wsi-mobile.png" title="WebSpeed Insights' Analysis of CanIUse.com (Mobile)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of CanIUse.com on Mobile Browsers">
-<figcaption>WebSpeed Insight&rsquo;s Analysis of CanIUse.com on Mobile Browsers</figcaption>
-</figure><br />
+<figcaption>WebSpeed Insights&rsquo; Analysis of CanIUse.com on Mobile Browsers</figcaption>
+</figure>
 
+<p>I am genuinely impressed by the extensive list of website metrics that WebSpeed Insights examines, and I plan to use its analyses as a means of evaluating all of the web pages that I review on this blog site. I also plan to provide test results from <a href="https://www.lambdatest.com" >lambdatest.com</a>, which simulates precisely how websites render on different mobile devices (see below).</p>
+
+<h2>The Bottom Line:</h2>
+
+<p>In my humble opinion, CanIUse.com should occupy a special place in any web developer&rsquo;s bookmark collection. </p>
+
+<p class="section-split">&#4960;</p>
 
 <div class="sitetitle">
 
@@ -159,6 +174,14 @@ code {
     padding-left: 15px;
     background: #ffffff;
     font-weight: 800;
+}
+
+.section-split {
+    font-size: 44px;
+    color: purple;
+    font-weight: 800;
+    margin: 5px 0 30px 0;
+    text-align: center;
 }
 
 .dropcap {
