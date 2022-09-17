@@ -71,19 +71,19 @@ URL: <a href="https://developer.mozilla.org/en-US/" target="_blank">https://deve
 <div><h3>Mozilla Firefox</h3></div>
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-note-9-360x740.png" onclick="openModal();currentSlide(6)" class="hover-shadow" width=90px title="CanIUse.com on the Samsung Galaxy Note 9">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-note-9-firefox-360x740.png" onclick="openModal();currentSlide(6)" class="hover-shadow" width=90px title="CanIUse.com on the Samsung Galaxy Note 9">
     <figcaption>Samsung Galaxy Note 9</figcaption>
   </div>
 </figure>
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-google-pixel-3-412x695.png" onclick="openModal();currentSlide(7)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-google-pixel-3-firefox-412x695.png" onclick="openModal();currentSlide(7)" class="hover-shadow">
     <figcaption>Google Pixel 3</figcaption>
   </div>
 </figure>
 <figure>  
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-iphone-8-plus-414x736.png" onclick="openModal();currentSlide(8)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-iphone-8-plus-firefox-414x736.png" onclick="openModal();currentSlide(8)" class="hover-shadow">
     <figcaption>Apple iPhone 8 Plus</figcaption>
   </div>
 </figure>
