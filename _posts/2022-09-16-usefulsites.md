@@ -1,5 +1,5 @@
 ---
-title: "Two Useful Sites for Web Developers: Part 1"
+title: "Useful Sites for Web Developers: Pt. 1"
 date: 2022-09-16
 ---
 <div class="sitetitle">

@@ -1,5 +1,5 @@
 ---
-title: "Two Useful Sites for Web Developers: Part 2"
+title: "Useful Sites for Web Developers: Pt. 2"
 date: 2022-09-17
 ---
 <div class="sitetitle">
@@ -14,9 +14,13 @@ URL: <a href="https://developer.mozilla.org/en-US/" target="_blank">https://deve
 <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdnwebdocs_header.png" title="MDN Web Docs" style="width:100%;" class="siteheader" alt="A graphic depicting the header of the developer.mozilla.org website.">
 </div>
 
-<p><span class="dropcap">M</span><strong>DN</strong> (<em>formerly</em> <strong>Mozilla Developer Network</strong>) <strong>Web Docs</strong> is <strong><em>the</em></strong> authoriative source for all things World Wide Web. This comprehensive website, launched in 2005, maintains detailed, technical reference documents and tutorials on a wide variety of topics, including HTML5, CSS3, Django (a Python web development framework), JavaScript, MathML, Node.js (a popular JavaScript runtime environment), as well as Web APIs, Extensions, and Technologies. MDN Web Docs&rsquo; knowledge repositories represent the collaborative contributions of web development and telecommunications experts from industry giants Mozilla, Google, Microsoft, and Samsung.<sup><a href="https://www.zdnet.com/article/developers-rejoice-microsoft-google-mozilla-are-putting-all-their-web-api-docs-in-one-place/" target="_blank">1</a></sup> In addition to providing articles on web technology topics, the site also features a soup to nuts, self-paced course on web development in its &ldquo;MDN Learning Area&rdquo; (under &ldquo;Guides&rdquo;). In short, MDN Web Docs delivers on its mission statement: &ldquo;to <u>provide a blueprint for a better internet</u> and empower a new generation of developers and content creators to build it.&rdquo;<sup><a href="https://developer.mozilla.org/en-US/about" target="_blank">2</a></sup>
+<p><span class="dropcap">M</span><strong>DN</strong> (<em>formerly</em> <strong>Mozilla Developer Network</strong>) <strong>Web Docs</strong> is <strong><em>the</em></strong> authoriative source for all things World Wide Web. This comprehensive website, launched in 2005, maintains detailed, technical reference documents and tutorials on a wide variety of topics, including HTML5, CSS3, Django (a Python web development framework), JavaScript, MathML, Node.js (a popular JavaScript runtime environment), as well as Web APIs, Extensions, and Technologies. MDN Web Docs&rsquo; knowledge repositories represent the collaborative contributions of web development and telecommunications experts from industry giants Mozilla, Google, Microsoft, and Samsung, as well as thousands of amateur and professional independent developers who are part of the MDN community worldwide.<sup><a href="https://www.zdnet.com/article/developers-rejoice-microsoft-google-mozilla-are-putting-all-their-web-api-docs-in-one-place/" target="_blank">1</a></sup> In addition to providing articles on web technology topics, the site also features a soup to nuts, self-paced course on web development in its &ldquo;MDN Learning Area&rdquo; (under &ldquo;Guides&rdquo;). In short, MDN Web Docs delivers on its mission statement: &ldquo;to <u>provide a blueprint for a better internet</u> and empower a new generation of developers and content creators to build it.&rdquo;<sup><a href="https://developer.mozilla.org/en-US/about" target="_blank">2</a></sup>
 </p>
 
+<p>One of the features that I find extremely useful about MDN Web Docs is its table of contents-style navigation. I can visit the site with a general topic in mind, e.g., CSS pseudo-classes, and then drill down to more specific topics as I traverse the TOC tree from root to leaves. Before I browse more specific topics, MDN Web Docs warns me if the selected topic is &ldquo;Experimental&rdquo; by placing a beaker icon to the left of the topic name. The left-side navigation tree breaks down topics at the macroscopic level; once I reach the article I desire, a second navigation bar appears stickied to the upper-right side of the browser window that links to subtopics within that article. I appreciate having these dual navigation bars accessible at every turn because I tend to venture down hyperlinked rabbit holes while browsing this veritable hypertext Library of Alexandria&mdash;relying solely on the Back button to return from Wonderland would prove incredibly tiresome. If what I find in the article seems incomplete or in need of correction, I can locate links to the official MDN Web Docs GitHub repository at the bottom of the article and submit issues or suggested revisions on that companion site. In summation, MDN Web Docs accentuates its usefulness as a web development resource by incorporating ease of navigation and methods of user contribution into the ever-growing bodies of knowledge hosted on a generally streamlined, minimalistic site.</p>
+<p>Let&rsquo;s see how MDN Web Docs fares after taking some objective measurements.
+</p>
+<h2>WebSpeed Insights Analysis:</h2>
 <h3>Test Conditions:</h3>
 <div class="conditions">
 <strong>Device:</strong> Samsung Galaxy A13 5G<br/>
@@ -33,7 +37,7 @@ URL: <a href="https://developer.mozilla.org/en-US/" target="_blank">https://deve
 <figcaption>WebSpeed Insights&rsquo; Analysis of developer.mozilla.com on Mobile Browsers</figcaption>
 </figure>
 
-<p>Poop.</p>
+<p>As you can see from the gauges above, MDN Web Docs scores well in terms of &ldquo;Accessiblily&rdquo; and &ldquo;Best Practices&rdquo; on both desktop and mobile platforms. However, the test results reveal a stark difference between desktop and mobile platforms in terms of &ldquo;Performance.&rdquo; The mobile platform test, in particular, reveals a number of surprising issues found on a site devoted to the best and latest information about web technologies. For instance, MDN Web Docs loses points on rubrics such as &ldquo;First Contentful Paint&rdquo; (2.6 s), &ldquo;Time to interactive&rdquo; (5.6 s), &ldquo;Elimination of render-blocking resources&rdquo; (with a potential savings of 1,640 ms), and &ldquo;First Contentful Paint (3G)&rdquo; (5730 ms). While these lower marks do not suggest that the site is a miserable failure on mobile devices, they do raise questions concerning the site&rsquo;s intended audience, especially given that fixes to some of these issues, e.g., removal/replacement of a non-minified, render-blocking CSS file, strike me as fairly simple to execute.</p>
 
 <h2>lambdatest.com Results (a sample)</h2>
 
@@ -231,7 +235,7 @@ URL: <a href="https://developer.mozilla.org/en-US/" target="_blank">https://deve
 
 <h2>The Bottom Line:</h2>
 
-<p>In my humble opinion, CanIUse.com should occupy a special place in any web developer&rsquo;s bookmark collection. </p>
+<p>To be perfectly honest, I could probably spend all day browsing MDN Web Docs: the temptation to dive into this deep pool of WWW wisdom is seldom easy to resist. If there are web developers in the field who do not rely on MDN Web Docs as heavily as I do for day-to-day reference and long-term study, I would highly recommend that they at least acquaint themselves with this rich online resource. The web is a living, breathing creature always growing and moving in new directions. In my humble opinion, MDN Web Docs is one of the best web destinations allowing visitors to keep tabs on the web&rsquo;s changes and movements. It should not only be the first stop on a fledgling web developer&rsquo;s journey toward mastery but also a regular haunt for the more adept developer.</p>
 </div>
 
 </div>
