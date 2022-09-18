@@ -370,7 +370,7 @@ code {
     border-right: solid 2px;
     border-bottom: solid 2px;
     min-width: 50%;
-    max-width: 100%;
+    max-width: 99.5%;
 }
 
 .sitetitle {
