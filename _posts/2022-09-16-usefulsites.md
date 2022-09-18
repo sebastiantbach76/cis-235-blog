@@ -232,6 +232,8 @@ Personally, I find CanIUse.com invaluable for its ability to deliver data visual
 
 <br/>
 
+<p>With the exception of minor variations in how different browsers display certain colors used on CanIUse.com, lambdatest.com reports no significant differences in functionality across various browsers.</p>
+
 <h2>The Bottom Line:</h2>
 
 <p>In my humble opinion, CanIUse.com should occupy a special place in any web developer&rsquo;s bookmark collection. My general policy is, when in doubt, check CanIUse.com first: the cost of publishing a web site that renders poorly (or not at all) in specific browsers&mdash;especially the most popular&mdash;is too great to justify bypassing a quick search on this reference site. One of the most basic keys to site visitor rentention is presenting users with a site that loads quickly and paints properly on the first visit. All too often, users who feel they need to change browsers to experience a website comfortably become lost site visitors, never to return. Accordingly, maximizing the cross-browser compatibility of a site in development should play a regular role in one&rsquo;s web development workflow, and CanIUse.com offers many of the tools and data capable of enhancing this process and circumventing future revisions.</p>

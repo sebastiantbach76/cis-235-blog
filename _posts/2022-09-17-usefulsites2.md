@@ -233,6 +233,8 @@ URL: <a href="https://developer.mozilla.org/en-US/" target="_blank">https://deve
 
 <br/>
 
+<p>With the exception of minor variations in how different browsers display certain colors used on developer.mozilla.org, lambdatest.com reports no significant differences in functionality across various browsers.</p>
+
 <h2>The Bottom Line:</h2>
 
 <p>To be perfectly honest, I could probably spend all day browsing MDN Web Docs: the temptation to dive into this deep pool of WWW wisdom is seldom easy to resist. If there are web developers in the field who do not rely on MDN Web Docs as heavily as I do for day-to-day reference and long-term study, I would highly recommend that they at least acquaint themselves with this rich online resource. The web is a living, breathing creature always growing and moving in new directions. In my humble opinion, MDN Web Docs is one of the best web destinations allowing visitors to keep tabs on the web&rsquo;s changes and movements. It should not only be the first stop on a fledgling web developer&rsquo;s journey toward mastery but also a regular haunt for the more adept developer.</p>

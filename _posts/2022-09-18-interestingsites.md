@@ -279,6 +279,8 @@ Hint: Use Maybe.withDefault to handle possible errors.
 
 <br/>
 
+<p>lambdatest.com reports no significant differences in functionality on elm-lang.org/try across various browsers.</p>
+
 <h2>The Bottom Line:</h2>
 
 <p>As the test results from lambdatest.com show, the Elm Playground probably is not the easiest site to use on a small mobile device such as a cellular phone. Tablets, on the other hand, offer greater screen width to better accommodate the two vertical panels displayed in the playground. To improve the mobile browsing experience, I would recommend to the site administrators that they offer users the option of reorienting the two panels so that the screen splits horizontally: the output panel could relocate to the top of the screen while the code editor panel could move to the bottom of the screen. Realizing this panel shift would allow users to see each horizontal line of code better and prevent the output panel from obscuring the ends of code lines. Aside from this limitation of the site, I would highly recommend it to anyone interested in exploring additional programming languages for web development. Elm provides a powerful alternative to the typical ways developers work with HTML, CSS, and JavaScript, and the Elm Playground allows curious users to discover the capabilities of the language without making any significant changes to their systems locally.</p>
