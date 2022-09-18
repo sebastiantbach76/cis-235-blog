@@ -6,20 +6,50 @@ date: 2022-09-18
 
 <h2>Official Elm Language Playground &#128279;</h2>
 
-URL: <a href="https://developer.mozilla.org/en-US/" target="_blank">https://developer.mozilla.org/en-US/</a>
+URL: <a href="https://elm-lang.org/try" target="_blank">https://elm-lang.org/try</a>
 
 </div>
 
 <div>
-<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdnwebdocs_header.png" title="MDN Web Docs" style="width:100%;" class="siteheader" alt="A graphic depicting the header of the developer.mozilla.org website.">
+<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/epg_header.png" title="MDN Web Docs" style="width:100%;" class="siteheader" alt="A graphic depicting the header of the developer.mozilla.org website.">
 </div>
 
-<p><span class="dropcap">M</span><strong>DN</strong> (<em>formerly</em> <strong>Mozilla Developer Network</strong>) <strong>Web Docs</strong> is <strong><em>the</em></strong> authoriative source for all things World Wide Web. This comprehensive website, launched in 2005, maintains detailed, technical reference documents and tutorials on a wide variety of topics, including HTML5, CSS3, Django (a Python web development framework), JavaScript, MathML, Node.js (a popular JavaScript runtime environment), as well as Web APIs, Extensions, and Technologies. MDN Web Docs&rsquo; knowledge repositories represent the collaborative contributions of web development and telecommunications experts from industry giants Mozilla, Google, Microsoft, and Samsung, as well as thousands of amateur and professional independent developers who are part of the MDN community worldwide.<sup><a href="https://www.zdnet.com/article/developers-rejoice-microsoft-google-mozilla-are-putting-all-their-web-api-docs-in-one-place/" target="_blank">1</a></sup> In addition to providing articles on web technology topics, the site also features a soup to nuts, self-paced course on web development in its &ldquo;MDN Learning Area&rdquo; (under &ldquo;Guides&rdquo;). In short, MDN Web Docs delivers on its mission statement: &ldquo;to <u>provide a blueprint for a better internet</u> and empower a new generation of developers and content creators to build it.&rdquo;<sup><a href="https://developer.mozilla.org/en-US/about" target="_blank">2</a></sup>
+<p><span class="dropcap">E</span><strong>LM</strong> is a novel, type-safe, domain-specific, and reactive functional programming language that compiles to JavaScript and abides by the mantra &ldquo;No runtime exceptions.&rdquo;<sup><a href="https://elm-lang.org/" target="_blank">1</a></sup> At first glance, Elm&rsquo;s syntax may appear fairly alien to programmers more familiar with procedural programming languages like C or objected-oriented programming languages like Java (unless, of course, one is also familiar with Haskell, one of the inspirations for the Elm programming language).
 </p>
+<pre>
+import Html exposing (text)
 
-<p>One of the features that I find extremely useful about MDN Web Docs is its table of contents-style navigation. I can visit the site with a general topic in mind, e.g., CSS pseudo-classes, and then drill down to more specific topics as I traverse the TOC tree from root to leaves. Before I browse more specific topics, MDN Web Docs warns me if the selected topic is &ldquo;Experimental&rdquo; by placing a beaker icon to the left of the topic name. The left-side navigation tree breaks down topics at the macroscopic level; once I reach the article I desire, a second navigation bar appears stickied to the upper-right side of the browser window that links to subtopics within that article. I appreciate having these dual navigation bars accessible at every turn because I tend to venture down hyperlinked rabbit holes while browsing this veritable hypertext Library of Alexandria&mdash;relying solely on the Back button to return from Wonderland would prove incredibly tiresome. If what I find in the article seems incomplete or in need of correction, I can locate links to the official MDN Web Docs GitHub repository at the bottom of the article and submit issues or suggested revisions on that companion site. In summation, MDN Web Docs accentuates its usefulness as a web development resource by incorporating ease of navigation and methods of user contribution into the ever-growing bodies of knowledge hosted on a generally streamlined, minimalistic site.</p>
-<p>Let&rsquo;s see how MDN Web Docs fares after taking some objective measurements.
-</p>
+main =
+  text "Hello, Blog!"
+</pre>
+Compare the program above to the equivalent code in Java:
+<pre>
+class HelloBlog {
+    public static void main(String[] args) {
+        System.out.println("Hello, Blog!"); 
+    }
+}
+</pre>
+<p>By contrast, Java syntax is clearly more verbose and less legible as plain, spoken (English) language. In Java, at compile time, the Java compiler will translate the code above into a .class executable that can be invoked in a command line terminal and run on the Java Virtual Machine (JVM) in the Java runtime environment. In Elm, at compile time, the Elm compiler produces an HTML file (typically, &ldquo;index.html&rdquo;) by default; with the appropriate flag added to the compile command&mdash;e.g., &ldquo;<code>elm make src/Main.elm --output=main.js</code>&rdquo;&mdash;Elm produces clean, well-formed JavaScript that will not throw errors at runtime. This example illustrates Elm&rsquo;s domain specificity (as opposed to general purpose) as a programming pathway toward more stable web applications. It accomplishes this goal via an incredibly robust and programmer-friendly compiler that outputs extremely detailed and intuitive error messages at compile time. When I first began coding in Elm, I chuckled to myself when I received my first verbose, spot-on Elm compiler error that was nothing like the terse, sometimes inaccurate feedback I have received from the JavaScript interpreter at runtime. Here is a sample compiler error message:</p>
+<pre>
+-- TYPE MISMATCH ---------------------------- Main.elm
+
+The 1st argument to &#96;drop` is not what I expect:
+
+8|   List.drop (String.toInt userInput) [1,2,3,4,5,6]
+^^^^^^^^^^^^^^^^^^^^^^
+This &#96;toInt` call produces:
+
+    Maybe Int
+
+But &#96;drop` needs the 1st argument to be:
+
+    Int
+
+Hint: Use Maybe.withDefault to handle possible errors.
+</pre>
+<p>At this point, you may be thinking to yourself, &ldquo;Hold it right there, buddy! I thought this was supposed to be a blog that reviews other websites and not an infomercial for Elm.&rdquo; Thanks for your patience with my Elm preamble. Allow me to turn my attention to the website in question right now.</p>
+<p>For web developers curious about Elm, the creator of the language, Evan Czaplicki, and the Elm Software Foundation maintain an official Elm Playground (https://https://elm-lang.org/try), an online editor coupled with a preview window of the compiled code product/s. Visitors to the site may experiment with Elm code in the left panel and see the compiled results in the right panel (similar to <a href="https://codepen.io/" target="_blank">codepen.io</a> or <a href="https://jsfiddle.net/" target="_blank">jsfiddle.net</a>) without installing a single piece of Elm code on their respective systems. Upon navigating to the site, visitors receive the option of working from boilerplate code such as the obligatory &ldquo;Hello, World!&rdquo; program (nearly identical to the variant used above) or an application that represents and draws playing cards from a virtual deck (depicted in the page header above). Alternatively, the user may simply begin writing Elm code in the left panel and click the &ldquo;Rebuild&rdquo; button at the bottom of the left panel to replace the boilerplate options listed in the right panel with the compiled HTML and JavaScript. The Elm Playground also provides a helpful link to the <a href="https://guide.elm-lang.org/">official Elm Guide</a> so that programmers may refer to it as they explore the Elm Playground.</p>
 <h2>WebSpeed Insights Analysis:</h2>
 <h3>Test Conditions:</h3>
 <div class="conditions">
@@ -340,7 +370,7 @@ code {
     border-right: solid 2px;
     border-bottom: solid 2px;
     min-width: 50%;
-    max-width: 99.5%;
+    max-width: 100%;
 }
 
 .sitetitle {
