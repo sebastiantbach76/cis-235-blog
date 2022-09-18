@@ -62,16 +62,29 @@ Hint: Use Maybe.withDefault to handle possible errors.
 </div>
 
 <figure>
-<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-wsi-desktop.png" title="WebSpeed Insights' Analysis of CanIUse.com (Desktop)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of CanIUse.com on Desktop Browsers: Accessibilty 100, Best Practices 92, Performance 93">
-<figcaption>WebSpeed Insights&rsquo; Analysis of developer.mozilla.com on Desktop Browsers</figcaption>
+<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-wsi-desktop.png" title="WebSpeed Insights' Analysis of elm-lang.org/try (Desktop)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of elm-lang.org/try on Desktop Browsers: Accessibilty 87, Best Practices 100, Performance 100">
+<figcaption>WebSpeed Insights&rsquo; Analysis of elm-lang.org/try on Desktop Browsers</figcaption>
 </figure>
 <figure>
-<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-wsi-mobile.png" title="WebSpeed Insights' Analysis of CanIUse.com (Mobile)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of CanIUse.com on Mobile Browsers: Accessibility 100, Best Practices 92, Performance 52">
-<figcaption>WebSpeed Insights&rsquo; Analysis of developer.mozilla.com on Mobile Browsers</figcaption>
+<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-wsi-mobile.png" title="WebSpeed Insights' Analysis of elm-lang.org/try (Mobile)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of elm-lang.org/try on Mobile Browsers: Accessibility 95, Best Practices 100, Performance 89">
+<figcaption>WebSpeed Insights&rsquo; Analysis of elm-lang.org/try on Mobile Browsers</figcaption>
 </figure>
 
-<p>As you can see from the gauges above, MDN Web Docs scores well in terms of &ldquo;Accessiblily&rdquo; and &ldquo;Best Practices&rdquo; on both desktop and mobile platforms. However, the test results reveal a stark difference between desktop and mobile platforms in terms of &ldquo;Performance.&rdquo; The mobile platform test, in particular, reveals a number of surprising issues found on a site devoted to the best and latest information about web technologies. For instance, MDN Web Docs loses points on rubrics such as &ldquo;First Contentful Paint&rdquo; (2.6 s), &ldquo;Time to interactive&rdquo; (5.6 s), &ldquo;Elimination of render-blocking resources&rdquo; (with a potential savings of 1,640 ms), and &ldquo;First Contentful Paint (3G)&rdquo; (5730 ms). While these lower marks do not suggest that the site is a miserable failure on mobile devices, they do raise questions concerning the site&rsquo;s intended audience, especially given that fixes to some of these issues, e.g., removal/replacement of a render-blocking CSS file, strike me as fairly simple to execute.</p>
-
+<p>Most of these scores seem fairly excellent, so let&rsquo;s examine areas where the desktop browsing experience took a hit on accessibility and where the mobile browsing experience underperformed. According to WebSpeed Insights, three rubrics account for the drop in the site&rsquo;s accessibility:</p>
+<ol>
+  <li>'&#60;frame>' or '&#60;iframe>' elements do not have a title</li>
+  <li>Form elements do not have associated labels</li>
+  <li>Links do not have a discernable name</li>
+</ol>
+<p>All of these oversights will directly impact assistive technologies and, in turn, a desktop user with, e.g., low vision&rsquo;s ability to make use of the Elm Playground and its minimalist layout. While an accessibility score of 89 does not seem disastrous, on a relatively bare-bones site like the Elm Playground, these omissions could prove costly.</p>
+<p>In terms of performance, the mobile browsing experience does not meet the expectations for the following rubrics:</p>
+<ol>
+  <li>Ensures text remains visible during webfont load</li>
+  <li>Reduces unused JavaScript</li>
+  <li>First Contentful Paint (3G)</li>
+</ol>
+<p>Items 1 and 3 could be directly related, for a slow-loading webfont with no alternate could delay the first contentful paint <em>AND</em> make the site illegible until 5,190 ms have elapsed. Item 2 might also be contributing to the delay in the first contentful paint, for it refers to a JavaScript file, &ldquo;editor-codemirror.js,&rdquo; whose code could be pruned to reduce the file size from 79 KB to 50 KB. I will also note that a quick glance at the page source reveals that the <code>&#60;script></code> tag that loads the external JavaScript file carries neither the <code>async</code> nor the <code>defer</code> attribute, either of which could help improve page loading times.
+</p>
 <h2>lambdatest.com Results (a sample)</h2>
 
 <!-- Images used to open the lightbox -->
@@ -550,6 +563,10 @@ figcaption {
 
 .conditions {
     padding-left: 15px;
+}
+
+ol li {
+  color: black;
 }
 
 </style>
