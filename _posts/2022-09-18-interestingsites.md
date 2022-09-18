@@ -94,32 +94,32 @@ Hint: Use Maybe.withDefault to handle possible errors.
 
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-note-9-360x740.png" onclick="openModal();currentSlide(1)" class="hover-shadow" width=90px title="CanIUse.com on the Samsung Galaxy Note 9">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-note-9-360x740.png" onclick="openModal();currentSlide(1)" class="hover-shadow" width=90px title="elm-lang.org/try on the Samsung Galaxy Note 9">
     <figcaption>Samsung Galaxy Note 9</figcaption>
   </div>
 </figure>
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-google-pixel-3-412x695.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-google-pixel-3-412x695.png" onclick="openModal();currentSlide(2)" class="hover-shadow" title="elm-lang.org/try on the Google Pixel 3">
     <figcaption>Google Pixel 3</figcaption>
   </div>
 </figure>
 <figure>  
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-iphone-8-plus-414x736.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-iphone-8-plus-414x736.png" onclick="openModal();currentSlide(3)" class="hover-shadow" title="elm-lang.org/try on the Apple iPhone 8 Plus">
     <figcaption>Apple iPhone 8 Plus</figcaption>
   </div>
 </figure>
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-tab-s4-10-5-610x808.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-tab-s4-10-5-610x808.png" onclick="openModal();currentSlide(4)" class="hover-shadow" title="elm-lang.org/try on the Samsung Galaxy Tab S4">
     <figcaption>Samsung Galaxy Tab S4</figcaption>
   </div>
 </figure> 
 
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-ipad-(6th-generation)-768x1024.png" onclick="openModal();currentSlide(5)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-ipad-(6th-generation)-768x1024.png" onclick="openModal();currentSlide(5)" class="hover-shadow" title="elm-lang.org/try on the Apple iPad 6th Generation">
     <figcaption>Apple iPad 6th Generation</figcaption>
   </div>
 </figure>
@@ -132,32 +132,32 @@ Hint: Use Maybe.withDefault to handle possible errors.
 <div><h3>Mozilla Firefox</h3></div>
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-note-9-firefox-360x740.png" onclick="openModal();currentSlide(6)" class="hover-shadow" width=90px title="CanIUse.com on the Samsung Galaxy Note 9">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-note-9-firefox-360x740.png" onclick="openModal();currentSlide(6)" class="hover-shadow" width=90px title="elm-lang.org/try on the Samsung Galaxy Note 9">
     <figcaption>Samsung Galaxy Note 9</figcaption>
   </div>
 </figure>
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-google-pixel-3-firefox-412x695.png" onclick="openModal();currentSlide(7)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-google-pixel-3-firefox-412x695.png" onclick="openModal();currentSlide(7)" class="hover-shadow" title="elm-lang.org/try on the Google Pixel 3">
     <figcaption>Google Pixel 3</figcaption>
   </div>
 </figure>
 <figure>  
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-iphone-8-plus-firefox-414x736.png" onclick="openModal();currentSlide(8)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-iphone-8-plus-firefox-414x736.png" onclick="openModal();currentSlide(8)" class="hover-shadow" title="elm-lang.org/try on the Apple iPhone 8 Plus">
     <figcaption>Apple iPhone 8 Plus</figcaption>
   </div>
 </figure>
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-tab-s4-10-5-firefox-610x808.png" onclick="openModal();currentSlide(9)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-tab-s4-10-5-firefox-610x808.png" onclick="openModal();currentSlide(9)" class="hover-shadow" title="elm-lang.org/try on the Samsung Galaxy Tab S4">
     <figcaption>Samsung Galaxy Tab S4</figcaption>
   </div>
 </figure> 
 
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-ipad-(6th-generation)-firefox-768x1024.png" onclick="openModal();currentSlide(10)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-ipad-(6th-generation)-firefox-768x1024.png" onclick="openModal();currentSlide(10)" class="hover-shadow" title="elm-lang.org/try on the Apple iPad 6th Generation">
     <figcaption>Apple iPad 6th Generation</figcaption>
   </div>
 </figure>
@@ -201,22 +201,22 @@ Hint: Use Maybe.withDefault to handle possible errors.
 
 <div class="mySlides">
   <div class="numbertext">7 / 10</div>
-  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-google-pixel-3-firefox-412x695.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-google-pixel-3-firefox-412x695.png" style="width:100%">
 </div>
 
 <div class="mySlides">
   <div class="numbertext">8 / 10</div>
-  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-iphone-8-plus-firefox-414x736.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-iphone-8-plus-firefox-414x736.png" style="width:100%">
 </div>
 
 <div class="mySlides">
   <div class="numbertext">9 / 10</div>
-  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-tab-s4-10-5-firefox-610x808.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-tab-s4-10-5-firefox-610x808.png" style="width:100%">
 </div>
 
 <div class="mySlides">
   <div class="numbertext">10 / 10</div>
-  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-ipad-(6th-generation)-firefox-768x1024.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-ipad-(6th-generation)-firefox-768x1024.png" style="width:100%">
 </div>
 
 <!-- Next/previous controls -->
@@ -256,19 +256,19 @@ Hint: Use Maybe.withDefault to handle possible errors.
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-google-pixel-3-firefox-412x695.png" onclick="currentSlide(7)" alt="Google Pixel 3 (Mozilla Firefox)">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-google-pixel-3-firefox-412x695.png" onclick="currentSlide(7)" alt="Google Pixel 3 (Mozilla Firefox)">
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-iphone-8-plus-firefox-414x736.png" onclick="currentSlide(8)" alt="Apple iPhone 8 Plus (Mozilla Firefox)">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-iphone-8-plus-firefox-414x736.png" onclick="currentSlide(8)" alt="Apple iPhone 8 Plus (Mozilla Firefox)">
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-tab-s4-10-5-firefox-610x808.png" onclick="currentSlide(9)" alt="Samsung Galaxy Tab S4 (Mozilla Firefox)">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-tab-s4-10-5-firefox-610x808.png" onclick="currentSlide(9)" alt="Samsung Galaxy Tab S4 (Mozilla Firefox)">
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-ipad-(6th-generation)-firefox-768x1024.png" onclick="currentSlide(10)" alt="Apple iPad 6th Generation (Mozilla Firefox)">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-ipad-(6th-generation)-firefox-768x1024.png" onclick="currentSlide(10)" alt="Apple iPad 6th Generation (Mozilla Firefox)">
 </div>
 
 </div>
