@@ -132,7 +132,7 @@ Hint: Use Maybe.withDefault to handle possible errors.
 <div><h3>Mozilla Firefox</h3></div>
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-note-9-firefox-360x740.png" onclick="openModal();currentSlide(6)" class="hover-shadow" width=90px title="CanIUse.com on the Samsung Galaxy Note 9">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-note-9-firefox-360x740.png" onclick="openModal();currentSlide(6)" class="hover-shadow" width=90px title="CanIUse.com on the Samsung Galaxy Note 9">
     <figcaption>Samsung Galaxy Note 9</figcaption>
   </div>
 </figure>
@@ -196,7 +196,7 @@ Hint: Use Maybe.withDefault to handle possible errors.
 
 <div class="mySlides">
   <div class="numbertext">6 / 10</div>
-  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-note-9-firefox-360x740.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-note-9-firefox-360x740.png" style="width:100%">
 </div>
 
 <div class="mySlides">
@@ -252,7 +252,7 @@ Hint: Use Maybe.withDefault to handle possible errors.
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-note-9-firefox-360x740.png" onclick="currentSlide(6)" alt="Samsung Galaxy Note 9 (Mozilla Firefox)">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-note-9-firefox-360x740.png" onclick="currentSlide(6)" alt="Samsung Galaxy Note 9 (Mozilla Firefox)">
 </div>
 
 <div class="column">
