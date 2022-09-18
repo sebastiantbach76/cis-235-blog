@@ -48,32 +48,32 @@ URL: <a href="https://developer.mozilla.org/en-US/" target="_blank">https://deve
 
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-note-9-360x740.png" onclick="openModal();currentSlide(1)" class="hover-shadow" width=90px title="CanIUse.com on the Samsung Galaxy Note 9">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-note-9-360x740.png" onclick="openModal();currentSlide(1)" class="hover-shadow" width=90px title="developer.mozilla.org/en-US/ on the Samsung Galaxy Note 9">
     <figcaption>Samsung Galaxy Note 9</figcaption>
   </div>
 </figure>
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-google-pixel-3-412x695.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-google-pixel-3-412x695.png" onclick="openModal();currentSlide(2)" class="hover-shadow" title="developer.mozilla.org/en-US/ on the Google Pixel 3">
     <figcaption>Google Pixel 3</figcaption>
   </div>
 </figure>
 <figure>  
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-iphone-8-plus-414x736.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-iphone-8-plus-414x736.png" onclick="openModal();currentSlide(3)" class="hover-shadow" title="developer.mozilla.org/en-US/ on the Apple iPhone 8 Plus">
     <figcaption>Apple iPhone 8 Plus</figcaption>
   </div>
 </figure>
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-tab-s4-10-5-610x808.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-tab-s4-10-5-610x808.png" onclick="openModal();currentSlide(4)" class="hover-shadow" title="developer.mozilla.org/en-US/ on the Samsung Galaxy Tab S4">
     <figcaption>Samsung Galaxy Tab S4</figcaption>
   </div>
 </figure> 
 
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-ipad-(6th-generation)-768x1024.png" onclick="openModal();currentSlide(5)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-ipad-(6th-generation)-768x1024.png" onclick="openModal();currentSlide(5)" class="hover-shadow" title="developer.mozilla.org/en-US/ on the Apple iPad 6th Generation">
     <figcaption>Apple iPad 6th Generation</figcaption>
   </div>
 </figure>
@@ -86,32 +86,32 @@ URL: <a href="https://developer.mozilla.org/en-US/" target="_blank">https://deve
 <div><h3>Mozilla Firefox</h3></div>
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-note-9-firefox-360x740.png" onclick="openModal();currentSlide(6)" class="hover-shadow" width=90px title="CanIUse.com on the Samsung Galaxy Note 9">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-note-9-firefox-360x740.png" onclick="openModal();currentSlide(6)" class="hover-shadow" width=90px title="developer.mozilla.org/en-Us/ on the Samsung Galaxy Note 9">
     <figcaption>Samsung Galaxy Note 9</figcaption>
   </div>
 </figure>
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-google-pixel-3-firefox-412x695.png" onclick="openModal();currentSlide(7)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-google-pixel-3-firefox-412x695.png" onclick="openModal();currentSlide(7)" class="hover-shadow" title="developer.mozilla.org/en-Us/ on the Google Pixel 3">
     <figcaption>Google Pixel 3</figcaption>
   </div>
 </figure>
 <figure>  
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-iphone-8-plus-firefox-414x736.png" onclick="openModal();currentSlide(8)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-iphone-8-plus-firefox-414x736.png" onclick="openModal();currentSlide(8)" class="hover-shadow" title="developer.mozilla.org/en-Us/ on the Apple iPhone 8 Plus">
     <figcaption>Apple iPhone 8 Plus</figcaption>
   </div>
 </figure>
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-tab-s4-10-5-firefox-610x808.png" onclick="openModal();currentSlide(9)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-galaxy-tab-s4-10-5-firefox-610x808.png" onclick="openModal();currentSlide(9)" class="hover-shadow" title="developer.mozilla.org/en-Us/ on the Samsung Galaxy Tab S4">
     <figcaption>Samsung Galaxy Tab S4</figcaption>
   </div>
 </figure> 
 
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-ipad-(6th-generation)-firefox-768x1024.png" onclick="openModal();currentSlide(10)" class="hover-shadow">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mdn-ipad-(6th-generation)-firefox-768x1024.png" onclick="openModal();currentSlide(10)" class="hover-shadow" title="developer.mozilla.org/en-Us/ on the Apple iPad 6th Generation">
     <figcaption>Apple iPad 6th Generation</figcaption>
   </div>
 </figure>

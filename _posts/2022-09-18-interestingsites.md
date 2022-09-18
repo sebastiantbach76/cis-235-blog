@@ -11,7 +11,7 @@ URL: <a href="https://elm-lang.org/try" target="_blank">https://elm-lang.org/try
 </div>
 
 <div>
-<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/epg_header.png" title="MDN Web Docs" style="width:100%;" class="siteheader" alt="A graphic depicting the header of the developer.mozilla.org website.">
+<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/epg_header.png" title="Official Elm Language Playground" style="width:100%;" class="siteheader" alt="A graphic depicting the header of the elm-lang.org/try website.">
 </div>
 
 <p><span class="dropcap">E</span><strong>LM</strong> is a novel, type-safe, domain-specific, and reactive functional programming language that compiles to and interoperates with JavaScript and abides by the mantra &ldquo;No runtime exceptions.&rdquo;<sup><a href="https://elm-lang.org/" target="_blank">1</a></sup> At first glance, Elm&rsquo;s syntax may appear fairly alien to programmers more familiar with procedural programming languages like C or objected-oriented programming languages like Java (unless, of course, one is also familiar with Haskell, one of the inspirations for the Elm programming language).

@@ -11,43 +11,11 @@ URL: <a href="https://www.technologyreview.com/" target="_blank">https://www.tec
 </div>
 
 <div>
-<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/epg_header.png" title="MDN Web Docs" style="width:100%;" class="siteheader" alt="A graphic depicting the header of the developer.mozilla.org website.">
+<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr_header.png" title="MIT Technology Review" style="width:100%;" class="siteheader" alt="A graphic depicting the header of the www.technologyreview.org website.">
 </div>
 
-<p><span class="dropcap">E</span><strong>LM</strong> is a novel, type-safe, domain-specific, and reactive functional programming language that compiles to and interoperates with JavaScript and abides by the mantra &ldquo;No runtime exceptions.&rdquo;<sup><a href="https://elm-lang.org/" target="_blank">1</a></sup> At first glance, Elm&rsquo;s syntax may appear fairly alien to programmers more familiar with procedural programming languages like C or objected-oriented programming languages like Java (unless, of course, one is also familiar with Haskell, one of the inspirations for the Elm programming language).
+<p><span class="dropcap">T</span><strong>HE MIT TECHNOLOGY REVIEW</strong>
 </p>
-<pre>
-import Html exposing (text)
-
-main =
-  text "Hello, Blog!"
-</pre>
-Compare the program above to the equivalent code in Java:
-<pre>
-class HelloBlog {
-    public static void main(String[] args) {
-        System.out.println("Hello, Blog!"); 
-    }
-}
-</pre>
-<p>By contrast, Java syntax is clearly more verbose and less legible as plain, spoken (English) language. In Java, at compile time, the Java compiler will translate the code above into a .class executable that can be invoked in a command line terminal and run on the Java Virtual Machine (JVM) in the Java runtime environment. In Elm, at compile time, the Elm compiler produces an HTML file (typically, &ldquo;index.html&rdquo;) by default; with the appropriate flag added to the compile command&mdash;e.g., &ldquo;<code>elm make src/Main.elm --output=main.js</code>&rdquo;&mdash;Elm produces clean, well-formed JavaScript that will not throw exceptions at runtime. This example illustrates Elm&rsquo;s domain specificity (as opposed to general purpose) as a programming pathway toward more stable web applications. It accomplishes this goal via an incredibly robust and programmer-friendly compiler that outputs extremely detailed and intuitive error messages at compile time. When I first began coding in Elm, I chuckled to myself when I received my first verbose, spot-on Elm compiler error that was nothing like the terse, sometimes inaccurate feedback I have received from the JavaScript interpreter at runtime. Here is a sample compiler error message:</p>
-<pre>
--- TYPE MISMATCH ---------------------------- Main.elm
-
-The 1st argument to &#96;drop` is not what I expect:
-
-8|   List.drop (String.toInt userInput) [1,2,3,4,5,6]
-^^^^^^^^^^^^^^^^^^^^^^
-This &#96;toInt` call produces:
-
-    Maybe Int
-
-But &#96;drop` needs the 1st argument to be:
-
-    Int
-
-Hint: Use Maybe.withDefault to handle possible errors.
-</pre>
 <p>At this point, you may be thinking to yourself, &ldquo;Hold it right there, buddy! I thought this was supposed to be a blog that reviews other websites and not an infomercial for Elm.&rdquo; Thanks for your patience with my Elm preamble. Allow me to turn my attention to the website in question right now.</p>
 <p>For web developers curious about Elm, the creator of the language, Evan Czaplicki, and the Elm Software Foundation maintain an official Elm Playground (https://https://elm-lang.org/try), an online editor coupled with a preview window of the compiled code product/s. Visitors to the site may experiment with Elm code in the left panel and see the compiled results in the right panel (similar to <a href="https://codepen.io/" target="_blank">codepen.io</a> or <a href="https://jsfiddle.net/" target="_blank">jsfiddle.net</a>) without installing a single piece of Elm code on their respective systems. Upon navigating to the site, visitors receive the option of working from boilerplate code such as the obligatory &ldquo;Hello, World!&rdquo; program (nearly identical to the variant used above) or an application that represents and draws playing cards from a virtual deck (depicted in the page header above). Alternatively, the user may simply begin writing Elm code in the left panel and click the &ldquo;Rebuild&rdquo; button at the bottom of the left panel to replace the boilerplate options listed in the right panel with the compiled HTML and JavaScript. The Elm Playground also provides a helpful link to the <a href="https://guide.elm-lang.org/">official Elm Guide</a> so that programmers may refer to it as they explore the Elm Playground. For ease of use, the Elm Playground editor also provides buttons for light and dark modes and an Elm package manager (so that your code in the left panel can import the necessary code modules without throwing compiler errors).</p>
 <p>To begin with, one of the most interesting things about the Elm Playground site is that its functionality is available to the open-source coding public as an Elm package: <a href="https://package.elm-lang.org/packages/evancz/elm-playground/1.0.3">elm-playground</a> (v. 1.0.3). Consequently, beginner Elm programmers could use this code package to host <em>their own</em> Elm playgrounds, which is often untrue of other online code editing sites. Unlike some other online code editors, the Elm Playground does not suffer from functional limitations: given that Elm is a domain specific programming language and that its domain is web development, anything one can do in Elm offline can be accomplished in the Elm Playground. By contrast, some other online code editors balk at, e.g., blocks that solicit user input because they lack the infrastructure to translate the Ruby syntax <code>userInput = gets.chomp</code> into a web-serviceable input prompt (in other words, those sites are unwilling to generate the front-end GUI to accompany one&rsquo;s back-end code&mdash;not an unreasonable position to hold, by the way). Of course, Elm&rsquo;s raison d&rsquo;être is to compile to a product that is browser-friendly and ready to render, hence the unbridled potential of the Elm Playground. After test driving Elm code on the Elm Playground, one can copy and paste the working code into a text editor or IDE (<a href="https://atom.io/">Atom</a>, <a href="https://code.visualstudio.com/">Virtual Studio Code</a> and <a href="http://lighttable.com/">LightTable</a> provide support for Elm code through highlighting and linting plugins; support for Elm in JetBrains IDE plugins is fairly limited as of this writing and may be incompatible with the current versions of those IDEs) for later editing or compiling. I will add that, because all of this functionality is available on a website, one could try out Elm coding on either a desktop or mobile browser.</p>
