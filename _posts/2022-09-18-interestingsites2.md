@@ -29,15 +29,15 @@ URL: <a href="https://www.technologyreview.com/" target="_blank">https://www.tec
 </div>
 
 <figure>
-<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-wsi-desktop.png" title="WebSpeed Insights' Analysis of elm-lang.org/try (Desktop)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of elm-lang.org/try on Desktop Browsers: Accessibilty 87, Best Practices 100, Performance 100">
-<figcaption>WebSpeed Insights&rsquo; Analysis of elm-lang.org/try on Desktop Browsers</figcaption>
+<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-wsi-desktop.png" title="WebSpeed Insights' Analysis of www.technologyreview.com (Desktop)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of www.technologyreview.com on Desktop Browsers: Accessibilty 87, Best Practices 100, Performance 100">
+<figcaption>WebSpeed Insights&rsquo; Analysis of www.technologyreview.com on Desktop Browsers</figcaption>
 </figure>
 <figure>
-<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-wsi-mobile.png" title="WebSpeed Insights' Analysis of elm-lang.org/try (Mobile)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of elm-lang.org/try on Mobile Browsers: Accessibility 95, Best Practices 100, Performance 89">
-<figcaption>WebSpeed Insights&rsquo; Analysis of elm-lang.org/try on Mobile Browsers</figcaption>
+<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-wsi-mobile.png" title="WebSpeed Insights' Analysis of www.technologyreview.com (Mobile)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of www.technologyreview.com on Mobile Browsers: Accessibility 95, Best Practices 100, Performance 89">
+<figcaption>WebSpeed Insights&rsquo; Analysis of www.technologyreview.com on Mobile Browsers</figcaption>
 </figure>
 
-<p>Most of these scores seem fairly excellent, so let&rsquo;s examine areas where the desktop browsing experience took a hit on accessibility and where the mobile browsing experience underperformed. According to WebSpeed Insights, three rubrics account for the drop in the site&rsquo;s accessibility:</p>
+<p>The majority of these scores seem superb, so let&rsquo;s examine areas where the desktop browsing experience proved less than ideal on accessibility and where the mobile browsing experience underperformed. According to WebSpeed Insights, three rubrics account for the drop in the site&rsquo;s accessibility:</p>
 <ol>
   <li>'&#60;frame>' or '&#60;iframe>' elements do not have a title</li>
   <li>Form elements do not have associated labels</li>
