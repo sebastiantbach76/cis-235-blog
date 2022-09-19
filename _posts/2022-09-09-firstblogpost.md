@@ -22,7 +22,14 @@ One can even include inline graphics. (***Surf, Ferris, surf!***)
 <figcaption style="text-align: center;">Ferris surfs the World Wide Web! Art Credit: Esther Arzola (2019). Reuse <a href="https://www.behance.net/gallery/89117181/Ferris-the-professional">explicitly permitted by artist</a>.</figcaption>
 </figure>
 
-As you probably know, **GitHub**, which hosts this blog site in one of my repositories, deploys **Jekyll**, a static site generator written in **Ruby**, to render **Markdown** as **HTML**. This architecture is responsible for most of the public-facing text you encounter in that site&rsquo;s repositories, and it makes it possible to host a blog site without setting up a database to flesh out the site content. Combining the stripped-down markup of **Markdown** with a sprinkling of **CSS** and a beaker full of **Jekyll** alchemy can lead to rapid drafting and publication of blog posts. In total, from blog site setup to blog post publication, this task probably consumed about 20 minutes of my time.
+As you probably know, **GitHub.com**, which hosts this blog site in one of my repositories, deploys **Jekyll**, a static site generator written in Ruby, to render **Markdown** as **HTML**. This architecture is responsible for most of the public-facing text you encounter in that site&rsquo;s repositories, and it makes it possible to host a blog site without setting up a database to flesh out the site content. Combining the stripped-down markup of **Markdown** with a sprinkling of **CSS** and a beaker full of **Jekyll** alchemy can lead to rapid drafting and publication of blog posts. In total, from blog site setup to blog post publication, this task probably consumed about 20 minutes of my time.
+
+Other tools I used to construct this site include:
+<ul>
+<li><strong>IDE:</strong> JetBrains WebStorm</li>
+<li><strong>VCS:</strong> Git/GitHub</li>
+<li><strong>Static Content:</strong> Gimp</li>
+</ul>
 
 That&rsquo;s all for now.  I am off to conduct my search for seven websites to critique...
 
@@ -35,6 +42,10 @@ body {
     font-family: Times;
     font-weight: 400;
     line-height: 22px;
+}
+
+ul li {
+  color: black;
 }
 
 p {
