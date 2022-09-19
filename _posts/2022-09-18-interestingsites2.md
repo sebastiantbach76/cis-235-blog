@@ -29,28 +29,49 @@ URL: <a href="https://www.technologyreview.com/" target="_blank">https://www.tec
 </div>
 
 <figure>
-<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-wsi-desktop.png" title="WebSpeed Insights' Analysis of www.technologyreview.com (Desktop)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of www.technologyreview.com on Desktop Browsers: Accessibilty 87, Best Practices 100, Performance 100">
+<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-wsi-desktop.png" title="WebSpeed Insights' Analysis of www.technologyreview.com (Desktop)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of www.technologyreview.com on Desktop Browsers: Accessibilty 82, Best Practices 92, Performance 48">
 <figcaption>WebSpeed Insights&rsquo; Analysis of www.technologyreview.com on Desktop Browsers</figcaption>
 </figure>
 <figure>
-<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-wsi-mobile.png" title="WebSpeed Insights' Analysis of www.technologyreview.com (Mobile)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of www.technologyreview.com on Mobile Browsers: Accessibility 95, Best Practices 100, Performance 89">
+<img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-wsi-mobile.png" title="WebSpeed Insights' Analysis of www.technologyreview.com (Mobile)" style="width:100%;" alt="A graphic depicting WebSpeed Insight's Analysis of www.technologyreview.com on Mobile Browsers: Accessibility 75, Best Practices 83, Performance 20">
 <figcaption>WebSpeed Insights&rsquo; Analysis of www.technologyreview.com on Mobile Browsers</figcaption>
 </figure>
 
-<p>The majority of these scores seem superb, so let&rsquo;s examine areas where the desktop browsing experience proved less than ideal on accessibility and where the mobile browsing experience underperformed. According to WebSpeed Insights, three rubrics account for the drop in the site&rsquo;s accessibility:</p>
+<p>Clearly, MIT Technology Review earned some significantly low scores from WebSpeed Insights, so let&rsquo;s devote some space in this post to unpacking the major issues.</p>
+<p>Desktop browsers registered a major dip in performance when accessing www.technologyreview.com. The primary rubrics that the site failed to meet are:
+</p>
 <ol>
-  <li>'&#60;frame>' or '&#60;iframe>' elements do not have a title</li>
-  <li>Form elements do not have associated labels</li>
-  <li>Links do not have a discernable name</li>
+  <li>Time to interactive: 5.6 s</li>
+  <li>Speed index (a measure of how quickly elements of a page populate): 2.7 s</li>
+  <li>Total blocking time: 460 ms</li>
+  <li>Max Potential First Input Delay (a measure of how long the page takes to load before a user can begin entering input): 370 ms</li>
+  <li>Reduces unused JavaScript: potential 762 KB reduction</li>
+  <li>Avoids enormous network payloads: total size of 3,918 KB</li>
+  <li>Reduces JavaScript execution time (typically reflective of how numerous or large the external JavaScript files used by the site are): 2.8 s</li>
+  <li>Ensures text remains visible during webfont load: failed</li>
 </ol>
-<p>All of these oversights will directly impact assistive technologies and, in turn, a desktop user with, e.g., low vision&rsquo;s ability to make use of the Elm Playground and its minimalist layout. While an accessibility score of 89 does not seem disastrous, on a relatively bare-bones site like the Elm Playground, these omissions could prove costly.</p>
-<p>In terms of performance, the mobile browsing experience does not meet the expectations for the following rubrics:</p>
+<p>Based on these results, I would venture that the 10+ external JavaScript files that the site attempts to execute are chiefly responsible for the reduction in site performance. My browser console also displays several &ldquo;Uncaught (in promise)&rdquo; errors indicating problems with the site&rsquo;s code (namely, improperly handled exceptions) that go beyond the sheer volume of JavaScript loaded by the page. By all appearances, much of the external code is devoted to third-party site analytics, so the website administrators should consider how much value they derive from these measures and trackers and consider reducing their number to improve performance on desktop browsers.</p>
+<p>Mobile browsers suffered a two-pronged reduction in accessibility and performance:</p>
 <ol>
+  <li>Time to interactive: 27.7 s</li>
+  <li>Speed index: 13 s</li>
+  <li>Total Blocking Time: 5,160 ms</li>
+  <li>Defers offscreen images (typically indicates that the site does not employ lazy-loading of offscreen and hidden images): potential reduction of 1,062 KB</li>
+  <li>Reduces unused JavaScript: potential reduction of 811 KB</li>
+  <li>Serves images in next-gen formats (failure usually indicates the site relies exclusively on JPEGs and PNGs instead of graphic formats with higher compression ratios such as WebP): potential reduction of 76 KB</li>
+  <li>Avoids serving legacy JavaScript to modern browser (failure typically means the site does not discriminate between older and newer browsers and, instead, pushes the same polyfills and transforms to both): potential reduction of 74 KB</li>
+  <li>Avoids enormous network payloads: total size of 3,985 KB</li>
+  <li>Reduces JavaScript execution time: 13 s</li>
   <li>Ensures text remains visible during webfont load</li>
-  <li>Reduces unused JavaScript</li>
-  <li>First Contentful Paint (3G)</li>
+  <li>Reduces the impact of third-party code: 3,820 ms</li>
+  <li>Buttons do not have an accessible name</li>
+  <li>Background and foreground colors do not have a sufficient contrast ratio</li>
+  <li>&#96;[id]` attributes on active, focusable elements are not unique</li>
+  <li>ARIA IDs are not unique</li>
+  <li>Heading elements are not in a sequentially-descending order (typically indicates that nested headings skip over numeric levels from one header to the next, thereby muddling the semantic structure of the page for assistive devices)</li>
+  <li>Links do not have a discernible name</li>
 </ol>
-<p>Items 1 and 3 could be directly related, for a slow-loading webfont with no alternate could delay the first contentful paint <em>AND</em> make the site illegible until 5,190 ms have elapsed. Item 2 might also be contributing to the delay in the first contentful paint, for it refers to a JavaScript file, &ldquo;editor-codemirror.js,&rdquo; whose code could be pruned to reduce the file size from 79 KB to 50 KB. I will also note that a quick glance at the page source reveals that the <code>&#60;script></code> tag that loads the external JavaScript file carries neither the <code>async</code> nor the <code>defer</code> attribute, either of which could help improve page loading times.
+<p>Obviously, www.technologyreview.com should revisit its JavaScript inclusions and do a better job of minimizing its impact on performance. There are also some simple steps the administrators could take to reduce the burden of static site assets: a quick batch conversion of graphics to a format like WebP (followed by some necessary HTML refactoring) should help reduce the file sizes of graphics dramatically. Finally, it would seem that the site requires serious revision to be more inclusive and hospitable to visitors with disabilities, in particular those affected by low vision. As the site currently stands, it risks forcing assistive devices to overlook large sections of content, leaving some visitors to the site in the dark about numerous articles.
 </p>
 <h2>lambdatest.com Results (a sample)</h2>
 
