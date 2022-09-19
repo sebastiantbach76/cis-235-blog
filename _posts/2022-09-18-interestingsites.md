@@ -170,27 +170,27 @@ Hint: Use Maybe.withDefault to handle possible errors.
   <div class="modal-content">
 
 <div class="mySlides">
-  <div class="numbertext">1 / 5</div>
+  <div class="numbertext">1 / 10</div>
   <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-note-9-360x740.png" style="width:100%">
 </div>
 
 <div class="mySlides">
-  <div class="numbertext">2 / 5</div>
+  <div class="numbertext">2 / 10</div>
   <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-google-pixel-3-412x695.png" style="width:100%">
 </div>
 
 <div class="mySlides">
-  <div class="numbertext">3 / 5</div>
+  <div class="numbertext">3 / 10</div>
   <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-iphone-8-plus-414x736.png" style="width:100%">
 </div>
 
 <div class="mySlides">
-  <div class="numbertext">4 / 5</div>
+  <div class="numbertext">4 / 10</div>
   <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-tab-s4-10-5-610x808.png" style="width:100%">
 </div>
 
 <div class="mySlides">
-  <div class="numbertext">5 / 5</div>
+  <div class="numbertext">5 / 10</div>
   <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-ipad-(6th-generation)-768x1024.png" style="width:100%">
 </div>
 

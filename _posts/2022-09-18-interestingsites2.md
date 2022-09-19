@@ -53,15 +53,15 @@ URL: <a href="https://www.technologyreview.com/" target="_blank">https://www.tec
 <p>Based on these results, I would venture that the 10+ external JavaScript files that the site attempts to execute are chiefly responsible for the reduction in site performance. My browser console also displays several &ldquo;Uncaught (in promise)&rdquo; errors indicating problems with the site&rsquo;s code (namely, improperly handled exceptions) that go beyond the sheer volume of JavaScript loaded by the page. By all appearances, much of the external code is devoted to third-party site analytics, so the website administrators should consider how much value they derive from these measures and trackers and consider reducing their number to improve performance on desktop browsers.</p>
 <p>Mobile browsers suffered a two-pronged reduction in accessibility and performance:</p>
 <ol>
-  <li>Time to interactive: 27.7 s</li>
-  <li>Speed index: 13 s</li>
+  <li>Time to interactive: 7.7 s</li>
+  <li>Speed index: 6.2 s</li>
   <li>Total Blocking Time: 5,160 ms</li>
   <li>Defers offscreen images (typically indicates that the site does not employ lazy-loading of offscreen and hidden images): potential reduction of 1,062 KB</li>
   <li>Reduces unused JavaScript: potential reduction of 811 KB</li>
   <li>Serves images in next-gen formats (failure usually indicates the site relies exclusively on JPEGs and PNGs instead of graphic formats with higher compression ratios such as WebP): potential reduction of 76 KB</li>
   <li>Avoids serving legacy JavaScript to modern browser (failure typically means the site does not discriminate between older and newer browsers and, instead, pushes the same polyfills and transforms to both): potential reduction of 74 KB</li>
   <li>Avoids enormous network payloads: total size of 3,985 KB</li>
-  <li>Reduces JavaScript execution time: 13 s</li>
+  <li>Reduces JavaScript execution time: 6.4 s</li>
   <li>Ensures text remains visible during webfont load</li>
   <li>Reduces the impact of third-party code: 3,820 ms</li>
   <li>Buttons do not have an accessible name</li>
@@ -82,32 +82,32 @@ URL: <a href="https://www.technologyreview.com/" target="_blank">https://www.tec
 
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-note-9-360x740.png" onclick="openModal();currentSlide(1)" class="hover-shadow" width=90px title="elm-lang.org/try on the Samsung Galaxy Note 9">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-galaxy-note-9-360x740.png" onclick="openModal();currentSlide(1)" class="hover-shadow" width=90px title="www.technologyreview.com on the Samsung Galaxy Note 9">
     <figcaption>Samsung Galaxy Note 9</figcaption>
   </div>
 </figure>
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-google-pixel-3-412x695.png" onclick="openModal();currentSlide(2)" class="hover-shadow" title="elm-lang.org/try on the Google Pixel 3">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-google-pixel-3-412x695.png" onclick="openModal();currentSlide(2)" class="hover-shadow" title="www.technologyreview.com the Google Pixel 3">
     <figcaption>Google Pixel 3</figcaption>
   </div>
 </figure>
 <figure>  
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-iphone-8-plus-414x736.png" onclick="openModal();currentSlide(3)" class="hover-shadow" title="elm-lang.org/try on the Apple iPhone 8 Plus">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-iphone-8-plus-414x736.png" onclick="openModal();currentSlide(3)" class="hover-shadow" title="www.technologyreview.com on the Apple iPhone 8 Plus">
     <figcaption>Apple iPhone 8 Plus</figcaption>
   </div>
 </figure>
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-tab-s4-10-5-610x808.png" onclick="openModal();currentSlide(4)" class="hover-shadow" title="elm-lang.org/try on the Samsung Galaxy Tab S4">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-galaxy-tab-s4-10-5-610x808.png" onclick="openModal();currentSlide(4)" class="hover-shadow" title="www.technologyreview.com on the Samsung Galaxy Tab S4">
     <figcaption>Samsung Galaxy Tab S4</figcaption>
   </div>
 </figure> 
 
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-ipad-(6th-generation)-768x1024.png" onclick="openModal();currentSlide(5)" class="hover-shadow" title="elm-lang.org/try on the Apple iPad 6th Generation">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-ipad-(6th-generation)-768x1024.png" onclick="openModal();currentSlide(5)" class="hover-shadow" title="www.technologyreview.com on the Apple iPad 6th Generation">
     <figcaption>Apple iPad 6th Generation</figcaption>
   </div>
 </figure>
@@ -120,32 +120,32 @@ URL: <a href="https://www.technologyreview.com/" target="_blank">https://www.tec
 <div><h3>Mozilla Firefox</h3></div>
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-note-9-firefox-360x740.png" onclick="openModal();currentSlide(6)" class="hover-shadow" width=90px title="elm-lang.org/try on the Samsung Galaxy Note 9">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-galaxy-note-9-firefox-360x740.png" onclick="openModal();currentSlide(6)" class="hover-shadow" width=90px title="www.technologyreview.com on the Samsung Galaxy Note 9">
     <figcaption>Samsung Galaxy Note 9</figcaption>
   </div>
 </figure>
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-google-pixel-3-firefox-412x695.png" onclick="openModal();currentSlide(7)" class="hover-shadow" title="elm-lang.org/try on the Google Pixel 3">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-google-pixel-3-firefox-412x695.png" onclick="openModal();currentSlide(7)" class="hover-shadow" title="www.technologyreview.com on the Google Pixel 3">
     <figcaption>Google Pixel 3</figcaption>
   </div>
 </figure>
 <figure>  
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-iphone-8-plus-firefox-414x736.png" onclick="openModal();currentSlide(8)" class="hover-shadow" title="elm-lang.org/try on the Apple iPhone 8 Plus">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-iphone-8-plus-firefox-414x736.png" onclick="openModal();currentSlide(8)" class="hover-shadow" title="www.technologyreview.com on the Apple iPhone 8 Plus">
     <figcaption>Apple iPhone 8 Plus</figcaption>
   </div>
 </figure>
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-tab-s4-10-5-firefox-610x808.png" onclick="openModal();currentSlide(9)" class="hover-shadow" title="elm-lang.org/try on the Samsung Galaxy Tab S4">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-galaxy-tab-s4-10-5-firefox-610x808.png" onclick="openModal();currentSlide(9)" class="hover-shadow" title="www.technologyreview.com on the Samsung Galaxy Tab S4">
     <figcaption>Samsung Galaxy Tab S4</figcaption>
   </div>
 </figure> 
 
 <figure>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-ipad-(6th-generation)-firefox-768x1024.png" onclick="openModal();currentSlide(10)" class="hover-shadow" title="elm-lang.org/try on the Apple iPad 6th Generation">
+    <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-ipad-(6th-generation)-firefox-768x1024.png" onclick="openModal();currentSlide(10)" class="hover-shadow" title="www.technologyreview.com on the Apple iPad 6th Generation">
     <figcaption>Apple iPad 6th Generation</figcaption>
   </div>
 </figure>
@@ -158,53 +158,53 @@ URL: <a href="https://www.technologyreview.com/" target="_blank">https://www.tec
   <div class="modal-content">
 
 <div class="mySlides">
-  <div class="numbertext">1 / 5</div>
-  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-note-9-360x740.png" style="width:100%">
+  <div class="numbertext">1 / 10</div>
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-galaxy-note-9-360x740.png" style="width:100%">
 </div>
 
 <div class="mySlides">
-  <div class="numbertext">2 / 5</div>
-  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-google-pixel-3-412x695.png" style="width:100%">
+  <div class="numbertext">2 / 10</div>
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-google-pixel-3-412x695.png" style="width:100%">
 </div>
 
 <div class="mySlides">
-  <div class="numbertext">3 / 5</div>
-  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-iphone-8-plus-414x736.png" style="width:100%">
+  <div class="numbertext">3 / 10</div>
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-iphone-8-plus-414x736.png" style="width:100%">
 </div>
 
 <div class="mySlides">
-  <div class="numbertext">4 / 5</div>
-  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-tab-s4-10-5-610x808.png" style="width:100%">
+  <div class="numbertext">4 / 10</div>
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-galaxy-tab-s4-10-5-610x808.png" style="width:100%">
 </div>
 
 <div class="mySlides">
-  <div class="numbertext">5 / 5</div>
-  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-ipad-(6th-generation)-768x1024.png" style="width:100%">
+  <div class="numbertext">5 / 10</div>
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-ipad-(6th-generation)-768x1024.png" style="width:100%">
 </div>
 
 <div class="mySlides">
   <div class="numbertext">6 / 10</div>
-  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-note-9-firefox-360x740.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-galaxy-note-9-firefox-360x740.png" style="width:100%">
 </div>
 
 <div class="mySlides">
   <div class="numbertext">7 / 10</div>
-  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-google-pixel-3-firefox-412x695.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-google-pixel-3-firefox-412x695.png" style="width:100%">
 </div>
 
 <div class="mySlides">
   <div class="numbertext">8 / 10</div>
-  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-iphone-8-plus-firefox-414x736.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-iphone-8-plus-firefox-414x736.png" style="width:100%">
 </div>
 
 <div class="mySlides">
   <div class="numbertext">9 / 10</div>
-  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-tab-s4-10-5-firefox-610x808.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-galaxy-tab-s4-10-5-firefox-610x808.png" style="width:100%">
 </div>
 
 <div class="mySlides">
   <div class="numbertext">10 / 10</div>
-  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-ipad-(6th-generation)-firefox-768x1024.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-ipad-(6th-generation)-firefox-768x1024.png" style="width:100%">
 </div>
 
 <!-- Next/previous controls -->
@@ -220,43 +220,43 @@ URL: <a href="https://www.technologyreview.com/" target="_blank">https://www.tec
 
 <!-- Thumbnail image controls -->
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-note-9-360x740.png" onclick="currentSlide(1)" alt="Samsung Galaxy Note 9 (Google Chrome)">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-galaxy-note-9-360x740.png" onclick="currentSlide(1)" alt="Samsung Galaxy Note 9 (Google Chrome)">
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-google-pixel-3-412x695.png" onclick="currentSlide(2)" alt="Google Pixel 3 (Google Chrome)">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-google-pixel-3-412x695.png" onclick="currentSlide(2)" alt="Google Pixel 3 (Google Chrome)">
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-iphone-8-plus-414x736.png" onclick="currentSlide(3)" alt="Apple iPhone 8 Plus (Google Chrome)">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-iphone-8-plus-414x736.png" onclick="currentSlide(3)" alt="Apple iPhone 8 Plus (Google Chrome)">
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-tab-s4-10-5-610x808.png" onclick="currentSlide(4)" alt="Samsung Galaxy Tab S4 (Google Chrome)">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-galaxy-tab-s4-10-5-610x808.png" onclick="currentSlide(4)" alt="Samsung Galaxy Tab S4 (Google Chrome)">
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-ipad-(6th-generation)-768x1024.png" onclick="currentSlide(5)" alt="Apple iPad 6th Generation (Google Chrome)">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-ipad-(6th-generation)-768x1024.png" onclick="currentSlide(5)" alt="Apple iPad 6th Generation (Google Chrome)">
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-note-9-firefox-360x740.png" onclick="currentSlide(6)" alt="Samsung Galaxy Note 9 (Mozilla Firefox)">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-galaxy-note-9-firefox-360x740.png" onclick="currentSlide(6)" alt="Samsung Galaxy Note 9 (Mozilla Firefox)">
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-google-pixel-3-firefox-412x695.png" onclick="currentSlide(7)" alt="Google Pixel 3 (Mozilla Firefox)">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-google-pixel-3-firefox-412x695.png" onclick="currentSlide(7)" alt="Google Pixel 3 (Mozilla Firefox)">
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-iphone-8-plus-firefox-414x736.png" onclick="currentSlide(8)" alt="Apple iPhone 8 Plus (Mozilla Firefox)">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-iphone-8-plus-firefox-414x736.png" onclick="currentSlide(8)" alt="Apple iPhone 8 Plus (Mozilla Firefox)">
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-galaxy-tab-s4-10-5-firefox-610x808.png" onclick="currentSlide(9)" alt="Samsung Galaxy Tab S4 (Mozilla Firefox)">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-galaxy-tab-s4-10-5-firefox-610x808.png" onclick="currentSlide(9)" alt="Samsung Galaxy Tab S4 (Mozilla Firefox)">
 </div>
 
 <div class="column">
-  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/tep-ipad-(6th-generation)-firefox-768x1024.png" onclick="currentSlide(10)" alt="Apple iPad 6th Generation (Mozilla Firefox)">
+  <img class="demo" src="https://raw.githubusercontent.com/sebastiantbach76/cis-235-blog/main/assets/images/mtr-ipad-(6th-generation)-firefox-768x1024.png" onclick="currentSlide(10)" alt="Apple iPad 6th Generation (Mozilla Firefox)">
 </div>
 
 </div>
@@ -267,11 +267,11 @@ URL: <a href="https://www.technologyreview.com/" target="_blank">https://www.tec
 
 <br/>
 
-<p>With the exception of minor variations in how different browsers display certain colors used on www.technologyreview.com, lambdatest.com reports no significant differences in functionality across various browsers.</p>
+<p>lambdatest.com detected the JavaScript exceptions problem noted above, so the impact of that misbehaving code on site functionality across browsers remains unknown. With the exception of minor variations in how different browsers display certain colors used on www.technologyreview.com, lambdatest.com reported no other significant differences in functionality across various browsers.</p>
 
 <h2>The Bottom Line:</h2>
 
-<p>As the test results from lambdatest.com show, the Elm Playground probably is not the easiest site to use on a small mobile device such as a cellular phone. Tablets, on the other hand, offer greater screen width to better accommodate the two vertical panels displayed in the playground. To improve the mobile browsing experience, I would recommend to the site administrators that they offer users the option of reorienting the two panels so that the screen splits horizontally: the output panel could relocate to the top of the screen while the code editor panel could move to the bottom of the screen. Realizing this panel shift would allow users to see each horizontal line of code better and prevent the output panel from obscuring the ends of code lines. Aside from this limitation of the site, I would highly recommend it to anyone interested in exploring additional programming languages for web development. Elm provides a powerful alternative to the typical ways developers work with HTML, CSS, and JavaScript, and the Elm Playground allows curious users to discover the capabilities of the language without making any significant changes to their systems locally.</p>
+<p>WebSpeed Insights returned some troubling reports regarding malformed or missing ARIA elements on www.technologyreview.com. Accordingly, I feel uncomfortable recommending the site to a general audience. Otherwise, I would recommend it to readers who typically browse the web using a desktop client. Setting aside these performance and accessibility concerns, I <em>do</em> think readers who are interested in today&rsquo;s latest technology news would enjoy browsing the articles available on MIT Technology Review. In my experience, science and technology journalists often inadvertently betray limited writing and proofreading skills, especially on online-only STEM media outlets. MIT Technology Review writers have proven themselves to be the exception to that trend, and I value their ability to convey often complex technological details in polished prose.</p>
 </div>
 
 </div>
