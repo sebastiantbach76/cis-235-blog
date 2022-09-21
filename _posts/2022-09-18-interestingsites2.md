@@ -276,8 +276,13 @@ URL: <a href="https://www.technologyreview.com/" target="_blank">https://www.tec
 
 </div>
 
-
-
+<div class="endrow">
+    <div class="col-l"><strong>Previous:</strong> <a href="https://sebastiantbach76.github.io/cis-235-blog/2022/09/18/interestingsites.html">&#9754;
+    &ldquo;Interesting Sites<br>for Geeks: Part 1&rdquo; </a>
+    </div>
+    <div class="col-r"><strong>Next: </strong><a href="https://sebastiantbach76.github.io/cis-235-blog/2022/09/19/tgtbtu1.html">&ldquo;The Good, the Bad,<br>and the Ugly: Part 1&rdquo;&#9755;
+    </a></div>
+</div>
 
 <style>
 body {
@@ -288,6 +293,21 @@ body {
     font-family: Times;
     font-weight: 400;
     line-height: 22px;
+}
+
+.endrow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-l {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.col-r {
+  font-weight: 800;
+  font-size: 16px;
 }
 
 figcaption {

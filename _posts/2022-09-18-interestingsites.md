@@ -288,8 +288,13 @@ Hint: Use Maybe.withDefault to handle possible errors.
 
 </div>
 
-
-
+<div class="endrow">
+    <div class="col-l"><strong>Previous:</strong> <a href="https://sebastiantbach76.github.io/cis-235-blog/2022/09/17/usefulsites2.html">&#9754;
+    &ldquo;Useful Sites for<br>Web Developers: Part 2&rdquo; </a>
+    </div>
+    <div class="col-r"><strong>Next: </strong><a href="https://sebastiantbach76.github.io/cis-235-blog/2022/09/18/interestingsites2.html">&ldquo;Interesting Sites<br>for Geeks: Part 2&rdquo;&#9755;
+    </a></div>
+</div>
 
 <style>
 body {
@@ -300,6 +305,21 @@ body {
     font-family: Times;
     font-weight: 400;
     line-height: 22px;
+}
+
+.endrow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-l {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.col-r {
+  font-weight: 800;
+  font-size: 16px;
 }
 
 figcaption {

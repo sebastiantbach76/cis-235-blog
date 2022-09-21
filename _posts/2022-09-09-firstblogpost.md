@@ -30,8 +30,14 @@ Other tools I used to construct this site include:
 <li><strong>VCS:</strong> Git/GitHub</li>
 <li><strong>Static Content:</strong> Gimp</li>
 </ul>
+<p>
+That&rsquo;s all for now.  I am off to conduct my search for seven websites to critique...</p>
 
-That&rsquo;s all for now.  I am off to conduct my search for seven websites to critique...
+<div class="endrow">
+    <div class="col-l"></div>
+    <div class="col-r"><strong>Next:</strong> <a href="https://sebastiantbach76.github.io/cis-235-blog/2022/09/16/usefulsites.html">&ldquo;Useful Sites for <br>Web Developers: Part 1&rdquo; &#9758;
+</a></div>
+</div>
 
 <style>
 body {
@@ -42,6 +48,25 @@ body {
     font-family: Times;
     font-weight: 400;
     line-height: 22px;
+}
+
+a {
+  color: darkblue;
+}
+
+.endrow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-l {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.col-r {
+  font-weight: 800;
+  font-size: 16px;
 }
 
 ul li {
